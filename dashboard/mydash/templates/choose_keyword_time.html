@@ -80,14 +80,13 @@
             <h3>Choose a Time Range:</h3>
             <div class="form-group">
                 <select name="time_range" id="time_range" class="form-control">
-                    <option value="Any time">Any time</option>
-                    <option value="Past hour">Past hour</option>
-                    <option value="Past 24 hours">Past 24 hours</option>
-                    <option value="Past day">Past day</option>
-                    <option value="Past week">Past week</option>
-                    <option value="Past month">Past month</option>
+                    <option value="" disabled selected>Period options...</option> <!-- Default placeholder -->
                     <option value="Past year">Past year</option>
-                    <option value="Custom" selected>Period Options...</option> <!-- Added Custom Option -->
+                    <option value="Past month">Past month</option>
+                    <option value="Past week">Past week</option>
+                    <option value="Past 24 hours">Past 24 hours</option>
+                    <option value="Past hour">Past hour</option>
+                    <option value="Any time">Any time</option>
                 </select>
             </div>
 
@@ -95,13 +94,13 @@
             <h3>Or Enter Custom Date Range:</h3>
             <div class="form-group">
                 <label for="start_date">Start Date:</label>
-                <input type="date" name="start_date" id="start_date" class="form-control" required>
+                <input type="date" name="start_date" id="start_date" class="form-control" disabled required>
                 <small class="note">You can select a custom date range if needed.</small>
             </div>
 
             <div class="form-group">
                 <label for="end_date">End Date:</label>
-                <input type="date" name="end_date" id="end_date" class="form-control" required>
+                <input type="date" name="end_date" id="end_date" class="form-control" disabled required>
             </div>
 
             <button type="submit" class="btn">Submit</button>
@@ -123,29 +122,30 @@
         const timeRangeSelect = document.getElementById("time_range");
         const startDateInput = document.getElementById("start_date");
         const endDateInput = document.getElementById("end_date");
-
+    
         // Function to toggle custom date fields
         function toggleCustomDateFields() {
             const timeRange = timeRangeSelect.value;
-
-            if (timeRange === "Custom") {
-                // Enable custom date fields for "Custom Date Range"
+    
+            // Enable custom date fields only when no time range is selected (default value or "Custom" option)
+            if (timeRange === "" || timeRange === "Custom") {
                 startDateInput.disabled = false;
                 endDateInput.disabled = false;
             } else {
-                // Disable and clear custom date fields for predefined time ranges
+                // Disable and clear custom date fields when a time range is selected
                 startDateInput.disabled = true;
                 endDateInput.disabled = true;
                 startDateInput.value = ""; // Clear the value
                 endDateInput.value = "";   // Clear the value
             }
         }
-
-        // Call the toggle function initially to set the correct state
+    
+        // Call the toggle function initially to set the correct state (on page load)
         toggleCustomDateFields();
-
+    
         // Add event listener to time range selection to update date field state
         timeRangeSelect.addEventListener("change", toggleCustomDateFields);
     </script>
+    
 </body>
 </html>

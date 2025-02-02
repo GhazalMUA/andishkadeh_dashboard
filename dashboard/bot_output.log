@@ -3628,4 +3628,441 @@ NameError: name 'peint' is not defined
 
 >>> >>> NoneNone
 
->>> >>> 
+>>> >>> Not Found: /
+Not Found: /
+Not Found: /
+2025-02-02 07:51:49,216 - Not Found: /
+[02/Feb/2025 07:51:49] "GET / HTTP/1.1" 404 4450
+[02/Feb/2025 07:51:49] "GET / HTTP/1.1" 404 4450
+[02/Feb/2025 07:51:49] "GET / HTTP/1.1" 404 4450
+[02/Feb/2025 07:51:52] "GET /choose-step/ HTTP/1.1" 200 1361
+[02/Feb/2025 07:51:52] "GET /choose-step/ HTTP/1.1" 200 1361
+[02/Feb/2025 07:51:52] "GET /choose-step/ HTTP/1.1" 200 1361
+[02/Feb/2025 07:51:56] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 07:51:56] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 07:51:56] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 07:52:11] "POST /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 07:52:11] "POST /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 07:52:11] "POST /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 07:52:22] "GET /admin/ HTTP/1.1" 200 17594
+[02/Feb/2025 07:52:22] "GET /admin/ HTTP/1.1" 200 17594
+[02/Feb/2025 07:52:22] "GET /admin/ HTTP/1.1" 200 17594
+[02/Feb/2025 07:52:26] "GET /admin/mydash/researchcenter/ HTTP/1.1" 200 14783
+[02/Feb/2025 07:52:26] "GET /admin/mydash/researchcenter/ HTTP/1.1" 200 14783
+[02/Feb/2025 07:52:26] "GET /admin/mydash/researchcenter/ HTTP/1.1" 200 14783
+[02/Feb/2025 07:52:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[02/Feb/2025 07:52:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[02/Feb/2025 07:52:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[02/Feb/2025 07:52:28] "GET /admin/mydash/researchcenter/2/change/ HTTP/1.1" 200 28313
+[02/Feb/2025 07:52:28] "GET /admin/mydash/researchcenter/2/change/ HTTP/1.1" 200 28313
+[02/Feb/2025 07:52:28] "GET /admin/mydash/researchcenter/2/change/ HTTP/1.1" 200 28313
+[02/Feb/2025 07:52:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[02/Feb/2025 07:52:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[02/Feb/2025 07:52:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[02/Feb/2025 07:53:16] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:16] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:16] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:16] "GET /choose_keyword_time/28/ HTTP/1.1" 200 5328
+[02/Feb/2025 07:53:16] "GET /choose_keyword_time/28/ HTTP/1.1" 200 5328
+[02/Feb/2025 07:53:16] "GET /choose_keyword_time/28/ HTTP/1.1" 200 5328
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[02/Feb/2025 07:53:40] "POST /choose_keyword_time/28/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:40] "POST /choose_keyword_time/28/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:40] "POST /choose_keyword_time/28/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for Filtered SelectionOrder found: Order of ghazalmua for Filtered Selection
+
+Order details: <QuerySet [<OrderDetail: Detail of order 28 - Query: allintext: "biden" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 28 - Query: allintext: "biden" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+[02/Feb/2025 07:53:40] "GET /order-summary/28/ HTTP/1.1" 200 3999
+[02/Feb/2025 07:53:40] "GET /order-summary/28/ HTTP/1.1" 200 3999
+[02/Feb/2025 07:53:40] "GET /order-summary/28/ HTTP/1.1" 200 3999
+[02/Feb/2025 07:53:43] "GET /remove_order_detail/29/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:43] "GET /remove_order_detail/29/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:43] "GET /remove_order_detail/29/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for Filtered SelectionOrder found: Order of ghazalmua for Filtered Selection
+
+Order details: <QuerySet []>Order details: <QuerySet []>
+
+Order result: NoneOrder result: None
+
+[02/Feb/2025 07:53:43] "GET /order-summary/28/ HTTP/1.1" 200 3165
+[02/Feb/2025 07:53:43] "GET /order-summary/28/ HTTP/1.1" 200 3165
+[02/Feb/2025 07:53:43] "GET /order-summary/28/ HTTP/1.1" 200 3165
+[02/Feb/2025 07:53:44] "GET /choose-step/ HTTP/1.1" 200 1361
+[02/Feb/2025 07:53:44] "GET /choose-step/ HTTP/1.1" 200 1361
+[02/Feb/2025 07:53:44] "GET /choose-step/ HTTP/1.1" 200 1361
+[02/Feb/2025 07:53:46] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 07:53:46] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 07:53:46] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 07:53:59] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:59] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:59] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 07:53:59] "GET /choose_keyword_time/29/ HTTP/1.1" 200 5328
+[02/Feb/2025 07:53:59] "GET /choose_keyword_time/29/ HTTP/1.1" 200 5328
+[02/Feb/2025 07:53:59] "GET /choose_keyword_time/29/ HTTP/1.1" 200 5328
+[02/Feb/2025 07:54:19] "POST /choose_keyword_time/29/ HTTP/1.1" 200 5477
+[02/Feb/2025 07:54:19] "POST /choose_keyword_time/29/ HTTP/1.1" 200 5477
+[02/Feb/2025 07:54:19] "POST /choose_keyword_time/29/ HTTP/1.1" 200 5477
+[02/Feb/2025 07:58:13] "POST /choose_keyword_time/29/ HTTP/1.1" 200 5477
+[02/Feb/2025 07:58:13] "POST /choose_keyword_time/29/ HTTP/1.1" 200 5477
+[02/Feb/2025 07:58:13] "POST /choose_keyword_time/29/ HTTP/1.1" 200 5477
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-02 08:05:20,917 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-02 08:05:23,530 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[02/Feb/2025 08:05:29] "GET /choose_keyword_time/29/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:05:29] "GET /choose_keyword_time/29/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:05:29] "GET /choose_keyword_time/29/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:05:29] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 08:05:29] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 08:05:29] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 08:05:33] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:05:33] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:05:33] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:05:33] "GET /choose_keyword_time/30/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:05:33] "GET /choose_keyword_time/30/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:05:33] "GET /choose_keyword_time/30/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:05:46] "POST /choose_keyword_time/30/ HTTP/1.1" 200 5477
+[02/Feb/2025 08:05:46] "POST /choose_keyword_time/30/ HTTP/1.1" 200 5477
+[02/Feb/2025 08:05:46] "POST /choose_keyword_time/30/ HTTP/1.1" 200 5477
+[02/Feb/2025 08:06:15] "POST /choose_keyword_time/30/ HTTP/1.1" 200 5477
+[02/Feb/2025 08:06:15] "POST /choose_keyword_time/30/ HTTP/1.1" 200 5477
+[02/Feb/2025 08:06:15] "POST /choose_keyword_time/30/ HTTP/1.1" 200 5477
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-02 08:08:45,625 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[02/Feb/2025 08:08:51] "GET /choose_keyword_time/30/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:08:51] "GET /choose_keyword_time/30/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:08:51] "GET /choose_keyword_time/30/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:08:57] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:08:57] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:08:57] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:08:57] "GET /choose_keyword_time/31/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:08:57] "GET /choose_keyword_time/31/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:08:57] "GET /choose_keyword_time/31/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:09:13] "POST /choose_keyword_time/31/ HTTP/1.1" 200 5477
+[02/Feb/2025 08:09:13] "POST /choose_keyword_time/31/ HTTP/1.1" 200 5477
+[02/Feb/2025 08:09:13] "POST /choose_keyword_time/31/ HTTP/1.1" 200 5477
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-02 08:10:40,745 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[02/Feb/2025 08:11:59] "POST /choose_keyword_time/31/ HTTP/1.1" 200 5471
+[02/Feb/2025 08:11:59] "POST /choose_keyword_time/31/ HTTP/1.1" 200 5471
+[02/Feb/2025 08:11:59] "POST /choose_keyword_time/31/ HTTP/1.1" 200 5471
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-02 08:12:09,731 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[02/Feb/2025 08:12:20] "GET /choose_keyword_time/31/ HTTP/1.1" 200 5322
+[02/Feb/2025 08:12:20] "GET /choose_keyword_time/31/ HTTP/1.1" 200 5322
+[02/Feb/2025 08:12:20] "GET /choose_keyword_time/31/ HTTP/1.1" 200 5322
+[02/Feb/2025 08:12:27] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:12:27] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:12:27] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:12:27] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5322
+[02/Feb/2025 08:12:27] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5322
+[02/Feb/2025 08:12:27] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5322
+[02/Feb/2025 08:12:39] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:12:39] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:12:39] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5328
+[02/Feb/2025 08:16:52] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:52] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:52] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:56] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:56] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:56] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:57] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:57] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:57] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:57] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:57] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:57] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:57] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:57] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:16:57] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5438
+[02/Feb/2025 08:19:59] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:19:59] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:19:59] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:19:59] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:19:59] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:19:59] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:00] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:20:01] "GET /choose_keyword_time/32/ HTTP/1.1" 200 6811
+[02/Feb/2025 08:26:51] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:51] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:51] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:52] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:52] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:52] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:54] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:55] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:56] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:56] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:56] "GET /choose_keyword_time/32/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:26:57] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 08:26:57] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 08:26:57] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 08:27:05] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:27:05] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:27:05] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:27:05] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:27:05] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:27:05] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:06] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:06] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:06] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-02 08:28:42,651 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[02/Feb/2025 08:28:47] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:47] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:47] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:48] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:48] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:48] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:48] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:48] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:48] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:28:49] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5470
+[02/Feb/2025 08:30:44] "GET /admin/ HTTP/1.1" 200 17594
+[02/Feb/2025 08:30:44] "GET /admin/ HTTP/1.1" 200 17594
+[02/Feb/2025 08:30:44] "GET /admin/ HTTP/1.1" 200 17594
+[02/Feb/2025 08:30:49] "GET /admin/ HTTP/1.1" 200 17594
+[02/Feb/2025 08:30:49] "GET /admin/ HTTP/1.1" 200 17594
+[02/Feb/2025 08:30:49] "GET /admin/ HTTP/1.1" 200 17594
+[02/Feb/2025 08:30:52] "GET /admin/mydash/timerange/ HTTP/1.1" 200 15720
+[02/Feb/2025 08:30:52] "GET /admin/mydash/timerange/ HTTP/1.1" 200 15720
+[02/Feb/2025 08:30:52] "GET /admin/mydash/timerange/ HTTP/1.1" 200 15720
+[02/Feb/2025 08:30:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[02/Feb/2025 08:30:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[02/Feb/2025 08:30:52] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[02/Feb/2025 08:31:24] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5471
+[02/Feb/2025 08:31:24] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5471
+[02/Feb/2025 08:31:24] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5471
+[02/Feb/2025 08:31:25] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5471
+[02/Feb/2025 08:31:25] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5471
+[02/Feb/2025 08:31:25] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5471
+[02/Feb/2025 08:36:56] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:36:56] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:36:56] "GET /choose_keyword_time/33/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:37:02] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:02] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:02] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:02] "GET /choose_keyword_time/34/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:37:02] "GET /choose_keyword_time/34/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:37:02] "GET /choose_keyword_time/34/ HTTP/1.1" 200 5316
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[02/Feb/2025 08:37:11] "POST /choose_keyword_time/34/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:11] "POST /choose_keyword_time/34/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:11] "POST /choose_keyword_time/34/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for Filtered SelectionOrder found: Order of ghazalmua for Filtered Selection
+
+Order details: <QuerySet [<OrderDetail: Detail of order 34 - Query: allintext: "saeid" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 34 - Query: allintext: "saeid" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+[02/Feb/2025 08:37:11] "GET /order-summary/34/ HTTP/1.1" 200 3999
+[02/Feb/2025 08:37:11] "GET /order-summary/34/ HTTP/1.1" 200 3999
+[02/Feb/2025 08:37:11] "GET /order-summary/34/ HTTP/1.1" 200 3999
+[02/Feb/2025 08:37:14] "GET /remove_order_detail/35/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:14] "GET /remove_order_detail/35/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:14] "GET /remove_order_detail/35/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for Filtered SelectionOrder found: Order of ghazalmua for Filtered Selection
+
+Order details: <QuerySet []>Order details: <QuerySet []>
+
+Order result: NoneOrder result: None
+
+[02/Feb/2025 08:37:14] "GET /order-summary/34/ HTTP/1.1" 200 3165
+[02/Feb/2025 08:37:14] "GET /order-summary/34/ HTTP/1.1" 200 3165
+[02/Feb/2025 08:37:14] "GET /order-summary/34/ HTTP/1.1" 200 3165
+[02/Feb/2025 08:37:15] "GET /choose-step/ HTTP/1.1" 200 1361
+[02/Feb/2025 08:37:15] "GET /choose-step/ HTTP/1.1" 200 1361
+[02/Feb/2025 08:37:15] "GET /choose-step/ HTTP/1.1" 200 1361
+[02/Feb/2025 08:37:16] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 08:37:16] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 08:37:16] "GET /choose-by-filter/ HTTP/1.1" 200 47094
+[02/Feb/2025 08:37:47] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:47] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:47] "POST /choose-by-filter/ HTTP/1.1" 302 0
+[02/Feb/2025 08:37:47] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:37:47] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:37:47] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-02 08:42:27,814 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[02/Feb/2025 08:42:32] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:32] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:32] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:38] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:38] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:38] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:42:39] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5316
+[02/Feb/2025 08:47:58] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5388
+[02/Feb/2025 08:47:58] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5388
+[02/Feb/2025 08:47:58] "GET /choose_keyword_time/35/ HTTP/1.1" 200 5388
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[02/Feb/2025 08:48:16] "POST /choose_keyword_time/35/ HTTP/1.1" 302 0
+[02/Feb/2025 08:48:16] "POST /choose_keyword_time/35/ HTTP/1.1" 302 0
+[02/Feb/2025 08:48:16] "POST /choose_keyword_time/35/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for Filtered SelectionOrder found: Order of ghazalmua for Filtered Selection
+
+Order details: <QuerySet [<OrderDetail: Detail of order 35 - Query: allintext: "opd" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 35 - Query: allintext: "opd" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+[02/Feb/2025 08:48:16] "GET /order-summary/35/ HTTP/1.1" 200 3999
+[02/Feb/2025 08:48:16] "GET /order-summary/35/ HTTP/1.1" 200 3999
+[02/Feb/2025 08:48:16] "GET /order-summary/35/ HTTP/1.1" 200 3999
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for Filtered SelectionOrder found: Order of ghazalmua for Filtered Selection
+
+Order details: <QuerySet [<OrderDetail: Detail of order 35 - Query: allintext: "opd" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 35 - Query: allintext: "opd" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+POST request received.POST request received.
+
+Order ID: 35Order ID: 35
+
+Query: allintext: "opd" site:https://www.hrw.org/Query: allintext: "opd" site:https://www.hrw.org/
+
+Time Data: {'start_date': datetime.date(2024, 11, 3), 'end_date': datetime.date(2025, 1, 13), 'time_range': None}Time Data: {'start_date': datetime.date(2024, 11, 3), 'end_date': datetime.date(2025, 1, 13), 'time_range': None}
+
+Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']
+
+Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']
+
+Triggering Celery task...Triggering Celery task...
+
+Celery task triggered.Celery task triggered.
+
+[02/Feb/2025 08:48:45] "POST /order-summary/35/ HTTP/1.1" 302 0
+[02/Feb/2025 08:48:45] "POST /order-summary/35/ HTTP/1.1" 302 0
+[02/Feb/2025 08:48:45] "POST /order-summary/35/ HTTP/1.1" 302 0
+[02/Feb/2025 08:48:45] "GET /order_waiting/35/ HTTP/1.1" 200 954
+[02/Feb/2025 08:48:45] "GET /order_waiting/35/ HTTP/1.1" 200 954
+[02/Feb/2025 08:48:45] "GET /order_waiting/35/ HTTP/1.1" 200 954
+[02/Feb/2025 08:49:39] "GET /order_waiting/35/ HTTP/1.1" 200 954
+[02/Feb/2025 08:49:39] "GET /order_waiting/35/ HTTP/1.1" 200 954
+[02/Feb/2025 08:49:39] "GET /order_waiting/35/ HTTP/1.1" 200 954

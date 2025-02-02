@@ -91,54 +91,249 @@ def choose_by_filter(request):
         'research_areas': research_areas
     })
 
-def choose_keyword_time(request, order_id):
-    """after selecting the research center its the time to select keyword and time
-    Args:
-        request (user can set the time in some ): _description_
-        order_id (_type_): _description_
+# def choose_keyword_time(request, order_id):
+#     """after selecting the research center its the time to select keyword and time
+#     Args:
+#         request (user can set the time in some ): _description_
+#         order_id (_type_): _description_
 
-    Returns:
-        _type_: _description_
-    """
-    order = Order.objects.get(id=order_id)
-    if request.method == 'POST':
-        keyword = request.POST.get('keyword')  # Get the keyword from user input
-        selected_time_range = request.POST.get('time_range')  # Get the selected time range
-        start_date = request.POST.get('start_date')  # Custom start date
-        end_date = request.POST.get('end_date')  # Custom end date
+#     Returns:
+#         _type_: _description_
+#     """
+#     order = Order.objects.get(id=order_id)
+    
+#     if request.method == 'POST':
+#         keyword = request.POST.get('keyword')  # Get the keyword from user input
+#         selected_time_range = request.POST.get('time_range')  # Get the selected time range
+#         start_date = request.POST.get('start_date')  # Custom start date
+#         end_date = request.POST.get('end_date')  # Custom end date
         
-        # a ge hardotaro entekhab kard.
+#         # a ge hardotaro entekhab kard.
+#         if selected_time_range and (start_date or end_date):
+#             return render(request, 'choose_keyword_time.html', {'error': "Please select either a time range or custom date range, not both."})
+#         if selected_time_range:
+#             order.time_range = selected_time_range
+#         elif start_date and end_date:
+#             order.start_date = datetime.strptime(start_date, '%Y-%m-%d')
+#             order.end_date = datetime.strptime(end_date, '%Y-%m-%d')  
+#             order.save()  
+#         order_detail = OrderDetail.objects.get(order=order)
+#         research_center = order_detail.research_center
+#         query = generate_query(keyword=keyword, website=research_center.website)
+#         order_detail.query = query
+#         time_data = None
+#         if selected_time_range:
+#             time_data = selected_time_range
+#         elif start_date and end_date:
+#             time_data = {'start_date': start_date, 'end_date': end_date}
+            
+#         if selected_time_range and (start_date or end_date):
+#             return render(request, 'choose_keyword_time.html', {'error': "Please select either a time range or custom date range, not both."})
+
+#         if start_date and not end_date:
+#             return render(request, 'choose_keyword_time.html', {'error': "Both start and end dates are required for a custom range."})
+
+#         if end_date and not start_date:
+#             return render(request, 'choose_keyword_time.html', {'error': "Both start and end dates are required for a custom range."})
+            
+#         order_detail.save()
+        
+#         return redirect( 'order_summary', order_id=order_id)
+    
+#     return render(request, 'choose_keyword_time.html', {'order': order})
+
+
+# def choose_keyword_time(request, order_id):
+#     """After selecting the research center, it's time to select keyword and time."""
+#     order = Order.objects.get(id=order_id)
+    
+#     if request.method == 'POST':
+#         keyword = request.POST.get('keyword')  # Get the keyword from user input
+#         selected_time_range = request.POST.get('time_range')  # Get the selected time range
+#         start_date = request.POST.get('start_date')  # Custom start date
+#         end_date = request.POST.get('end_date')  # Custom end date
+        
+#         # Check if both time range and custom date range are selected
+#         if selected_time_range and (start_date or end_date):
+#             return render(request, 'choose_keyword_time.html', {'error': "Please select either a time range or custom date range, not both.", 'order': order})
+        
+#         # Check if only one of start_date or end_date is provided
+#         if (start_date and not end_date) or (end_date and not start_date):
+#             return render(request, 'choose_keyword_time.html', {'error': "Both start and end dates are required for a custom range.", 'order': order})
+        
+#         # Save the selected time range or custom date range
+#         if selected_time_range:
+#             order.time_range = selected_time_range
+#         elif start_date and end_date:
+#             order.start_date = datetime.strptime(start_date, '%Y-%m-%d')
+#             order.end_date = datetime.strptime(end_date, '%Y-%m-%d')
+        
+#         order.save()
+        
+#         # Update the order detail with the generated query
+#         order_detail = OrderDetail.objects.get(order=order)
+#         research_center = order_detail.research_center
+#         query = generate_query(keyword=keyword, website=research_center.website)
+#         order_detail.query = query
+#         order_detail.save()
+        
+#         return redirect('order_summary', order_id=order_id)
+    
+#     return render(request, 'choose_keyword_time.html', {'order': order})
+
+
+# def choose_keyword_time(request, order_id):
+#     """After selecting the research center, it's time to select the keyword and time"""
+#     order = Order.objects.get(id=order_id)
+    
+#     if request.method == 'POST':
+#         keyword = request.POST.get('keyword')  # Get the keyword from user input
+#         selected_time_range = request.POST.get('time_range')  # Get the selected time range
+#         start_date = request.POST.get('start_date')  # Custom start date
+#         end_date = request.POST.get('end_date')  # Custom end date
+        
+#         # Validate for both time_range and custom date range being selected
+#         if selected_time_range and (start_date or end_date):
+#             return render(request, 'choose_keyword_time.html', {'error': "Please select either a time range or custom date range, not both."})
+        
+#         # If the time range is selected, set it
+#         if selected_time_range:
+#             order.time_range = selected_time_range
+        
+#         # If custom start and end dates are selected, validate them
+#         elif start_date and end_date:
+#             try:
+#                 order.start_date = datetime.strptime(start_date, '%Y-%m-%d')
+#                 order.end_date = datetime.strptime(end_date, '%Y-%m-%d')
+#                 order.save()
+#             except ValueError:
+#                 return render(request, 'choose_keyword_time.html', {'error': "Invalid date format. Please use YYYY-MM-DD."})
+#         else:
+#             # If no time range or custom date range is selected
+#             return render(request, 'choose_keyword_time.html', {'error': "Please select either a time range or custom date range."})
+        
+#         # Set the query for the order
+#         order_detail = OrderDetail.objects.get(order=order)
+#         research_center = order_detail.research_center
+#         query = generate_query(keyword=keyword, website=research_center.website)
+#         order_detail.query = query
+
+#         # Save the updated order_detail
+#         order_detail.save()
+
+#         # Redirect to order summary
+#         return redirect('order_summary', order_id=order.id)
+
+#     return render(request, 'choose_keyword_time.html', {'order': order})
+
+
+# def choose_keyword_time(request, order_id):
+#     """Handle keyword and time range or custom date selection for an order."""
+    
+#     # Retrieve the order object
+#     order = Order.objects.get(id=order_id)
+
+#     if request.method == 'POST':
+#         keyword = request.POST.get('keyword')  # Get the keyword input from the user
+#         selected_time_range = request.POST.get('time_range')  # Get the selected time range
+#         start_date = request.POST.get('start_date')  # Get custom start date
+#         end_date = request.POST.get('end_date')  # Get custom end date
+        
+#         # Check if both time range and custom date range are selected
+#         if selected_time_range == "Custom" and (start_date and end_date):
+#             # Validating the custom date range input
+#             try:
+#                 start_date = datetime.strptime(start_date, '%Y-%m-%d')
+#                 end_date = datetime.strptime(end_date, '%Y-%m-%d')
+#                 if start_date > end_date:
+#                     return render(request, 'choose_keyword_time.html', {'order': order, 'error': "Start date cannot be after end date."})
+#             except ValueError:
+#                 return render(request, 'choose_keyword_time.html', {'order': order, 'error': "Invalid date format. Please use YYYY-MM-DD."})
+
+#             # Save custom date range to the order
+#             order.start_date = start_date
+#             order.end_date = end_date
+#             order.time_range = None  # Remove time_range if custom dates are selected
+#             order.save()
+
+#         elif selected_time_range and not (start_date or end_date):
+#             # Save the predefined time range to the order
+#             order.time_range = selected_time_range
+#             order.start_date = None
+#             order.end_date = None
+#             order.save()
+
+#         else:
+#             return render(request, 'choose_keyword_time.html', {'order': order, 'error': "Please select either a time range or custom date range, not both."})
+
+#         # Proceed with query generation and saving order details
+#         order_detail = OrderDetail.objects.get(order=order)
+#         research_center = order_detail.research_center
+#         query = generate_query(keyword=keyword, website=research_center.website)
+#         order_detail.query = query
+        
+#         # Save the order detail
+#         order_detail.save()
+
+#         return redirect('order_summary', order_id=order_id)
+
+#     return render(request, 'choose_keyword_time.html', {'order': order})
+
+
+from datetime import datetime
+
+def choose_keyword_time(request, order_id):
+    """Handle keyword and time range or custom date selection for an order."""
+    
+    # Retrieve the order object
+    order = Order.objects.get(id=order_id)
+
+    if request.method == 'POST':
+        keyword = request.POST.get('keyword')  # Get the keyword input from the user
+        selected_time_range = request.POST.get('time_range')  # Get the selected time range
+        start_date = request.POST.get('start_date')  # Get custom start date
+        end_date = request.POST.get('end_date')  # Get custom end date
+        
+        # Ensure that both time range and custom date range are not selected simultaneously
         if selected_time_range and (start_date or end_date):
-            return render(request, 'choose_keyword_time.html', {'error': "Please select either a time range or custom date range, not both."})
-        if selected_time_range:
+            return render(request, 'choose_keyword_time.html', {'order': order, 'error': "Please select either a time range or custom date range, not both."})
+
+        if selected_time_range:  # Time range is selected
             order.time_range = selected_time_range
-        elif start_date and end_date:
-            order.start_date = datetime.strptime(start_date, '%Y-%m-%d')
-            order.end_date = datetime.strptime(end_date, '%Y-%m-%d')  
-            order.save()  
+            order.start_date = None
+            order.end_date = None
+            order.save()
+
+        elif start_date and end_date:  # Custom date range is selected
+            try:
+                # Validate the custom date range
+                start_date = datetime.strptime(start_date, '%Y-%m-%d')
+                end_date = datetime.strptime(end_date, '%Y-%m-%d')
+                
+                # Ensure the start_date is not after the end_date
+                if start_date > end_date:
+                    return render(request, 'choose_keyword_time.html', {'order': order, 'error': "Start date cannot be after end date."})
+                
+                # Save custom date range to the order
+                order.start_date = start_date
+                order.end_date = end_date
+                order.time_range = None  # Remove time_range if custom dates are selected
+                order.save()
+
+            except ValueError:
+                return render(request, 'choose_keyword_time.html', {'order': order, 'error': "Invalid date format. Please use YYYY-MM-DD."})
+
+        # Proceed with query generation and saving order details
         order_detail = OrderDetail.objects.get(order=order)
         research_center = order_detail.research_center
         query = generate_query(keyword=keyword, website=research_center.website)
         order_detail.query = query
-        time_data = None
-        if selected_time_range:
-            time_data = selected_time_range
-        elif start_date and end_date:
-            time_data = {'start_date': start_date, 'end_date': end_date}
-            
-        if selected_time_range and (start_date or end_date):
-            return render(request, 'choose_keyword_time.html', {'error': "Please select either a time range or custom date range, not both."})
-
-        if start_date and not end_date:
-            return render(request, 'choose_keyword_time.html', {'error': "Both start and end dates are required for a custom range."})
-
-        if end_date and not start_date:
-            return render(request, 'choose_keyword_time.html', {'error': "Both start and end dates are required for a custom range."})
-            
-        order_detail.save()
         
-        return redirect( 'order_summary', order_id=order_id)
-    
+        # Save the order detail
+        order_detail.save()
+
+        return redirect('order_summary', order_id=order_id)
+
     return render(request, 'choose_keyword_time.html', {'order': order})
 
 def order_summary(request, order_id):
@@ -180,6 +375,7 @@ def order_summary(request, order_id):
     except Exception as e:
         print(f"Error in order_summary view: {e}")
         raise
+
 def remove_order_detail(request, order_detail_id):
     order_detail = OrderDetail.objects.get(id=order_detail_id)
     order_detail.delete()
