@@ -1,0 +1,47 @@
+<!-- order_waiting.html -->
+<h1>Your order is being processed</h1>
+<p>We are processing your request. Please wait a moment...</p>
+
+<!-- Loading spinner -->
+<div class="spinner">
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+</div>
+
+<!-- You can optionally add a refresh to poll for the result -->
+<meta http-equiv="refresh" content="5">
+
+<style>
+.spinner {
+    margin: 100px auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #007bff;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.dot1, .dot2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    animation: bounce 1.4s infinite ease-in-out;
+}
+
+.dot2 {
+    animation-delay: -0.7s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+</style>
+<!-- You can optionally add a refresh to poll for the result -->
+<meta http-equiv="refresh" content="5">

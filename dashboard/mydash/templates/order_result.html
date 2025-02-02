@@ -1,0 +1,12 @@
+<!-- order_result.html -->
+<h1>Your order has been processed successfully</h1>
+<p>Here is the result of your order:</p>
+
+<p>Status: {{ order_result.status.name }}</p>
+
+{% if order_result.result_file %}
+    <a href="{{ order_result.result_file.url }}">Download the result file</a>
+{% else %}
+    <p>No result file available, but here's the data:</p>
+    <pre>{{ order_result.raw_data }}</pre>
+{% endif %}

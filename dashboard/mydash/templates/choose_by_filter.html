@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose by Filtering</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* General Styling for the Form */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Select All Checkbox Styles */
+        .select-all {
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        /* Custom Dropdown Styling */
+        .custom-dropdown {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .custom-dropdown select {
+            display: none;
+        }
+
+        .custom-dropdown .dropdown-btn {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-align: left;
+            cursor: pointer;
+            background-color: #fff;
+        }
+
+        .custom-dropdown .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 100%;
+            border: 1px solid #ccc;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .custom-dropdown .dropdown-content label {
+            padding: 10px;
+            display: block;
+            cursor: pointer;
+        }
+
+        .custom-dropdown .dropdown-content input {
+            margin-right: 10px;
+        }
+
+        .note {
+            font-size: 12px;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+
+        .btn-primary {
+            padding: 10px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #007bff;
+            border-color: #007bff;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+        /* Styling for the Select All checkbox */
+        .form-check-label {
+            font-size: 16px;
+        }
+
+        .form-check-input {
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Filter Your Search</h2>
+        <form method="POST">
+            {% csrf_token %}
+            <!-- Continent Custom Dropdown -->
+            <div class="mb-3">
+                <label class="form-label">Select Continent</label>
+                <div class="form-check select-all">
+                    <input type="checkbox" id="select-all-continent" class="form-check-input">
+                    <label class="form-check-label" for="select-all-continent">Select All Continents</label>
+                </div>
+                <div class="custom-dropdown" id="continent-dropdown">
+                    <button type="button" class="dropdown-btn" id="continent-btn">Select Continents</button>
+                    <div class="dropdown-content" id="continent-options">
+                        <input type="text" id="continent-search" placeholder="Search for continents..." class="form-control mb-2">
+                        {% for continent in continents %}
+                            <label>
+                                <input type="checkbox" class="form-check-input" name="continent" value="{{ continent.name }}">
+                                {{ continent.name }}
+                            </label>
+                        {% empty %}
+                            <p>No continents available.</p>
+                        {% endfor %}
+                    </div>
+                </div>
+                <small class="note">Hold Command (Mac) or Ctrl (Windows) to select multiple options.</small>
+            </div>
+
+            <!-- Region Custom Dropdown -->
+            <div class="mb-3">
+                <label class="form-label">Select Region</label>
+                <div class="form-check select-all">
+                    <input type="checkbox" id="select-all-region" class="form-check-input">
+                    <label class="form-check-label" for="select-all-region">Select All Regions</label>
+                </div>
+                <div class="custom-dropdown" id="region-dropdown">
+                    <button type="button" class="dropdown-btn">Select Regions</button>
+                    <div class="dropdown-content" id="region-options">
+                        <input type="text" id="region-search" placeholder="Search for regions..." class="form-control mb-2">
+                        {% for region in regions %}
+                            <label>
+                                <input type="checkbox" class="form-check-input" name="region" value="{{ region.name }}">
+                                {{ region.name }}
+                            </label>
+                        {% endfor %}
+                    </div>
+                </div>
+                <small class="note">Hold Command (Mac) or Ctrl (Windows) to select multiple options.</small>
+            </div>
+
+            <!-- Research Area Custom Dropdown -->
+            <div class="mb-3">
+                <label class="form-label">Select Research Area</label>
+                <div class="form-check select-all">
+                    <input type="checkbox" id="select-all-research-area" class="form-check-input">
+                    <label class="form-check-label" for="select-all-research-area">Select All Research Areas</label>
+                </div>
+                <div class="custom-dropdown" id="research-area-dropdown">
+                    <button type="button" class="dropdown-btn">Select Research Areas</button>
+                    <div class="dropdown-content" id="research-area-options">
+                        <input type="text" id="research-area-search" placeholder="Search for research areas..." class="form-control mb-2">
+                        {% for area in research_areas %}
+                            <label>
+                                <input type="checkbox" class="form-check-input" name="research_area" value="{{ area.name }}">
+                                {{ area.name }}
+                            </label>
+                        {% endfor %}
+                    </div>
+                </div>
+                <small class="note">Hold Command (Mac) or Ctrl (Windows) to select multiple options.</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Apply Filters</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Functionality for custom dropdowns
+        document.querySelectorAll('.dropdown-btn').forEach(function(button) {
+            button.addEventListener('click', function() {
+                const dropdownContent = this.nextElementSibling;
+                dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+                if (this.id === 'continent-btn') {
+                    document.getElementById('continent-search').focus();
+                } else if (this.id === 'region-btn') {
+                    document.getElementById('region-search').focus();
+                } else if (this.id === 'research-area-btn') {
+                    document.getElementById('research-area-search').focus();
+                }
+            });
+        });
+
+        // Continent search functionality
+        document.getElementById('continent-search').addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            const labels = document.querySelectorAll('#continent-options label');
+            labels.forEach(function(label) {
+                const text = label.textContent.toLowerCase();
+                label.style.display = text.includes(query) ? 'block' : 'none';
+            });
+        });
+
+        // Region search functionality
+        document.getElementById('region-search').addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            const labels = document.querySelectorAll('#region-options label');
+            labels.forEach(function(label) {
+                const text = label.textContent.toLowerCase();
+                label.style.display = text.includes(query) ? 'block' : 'none';
+            });
+        });
+
+
+
+        
+
+        // Research Area search functionality
+        document.getElementById('research-area-search').addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            const labels = document.querySelectorAll('#research-area-options label');
+            labels.forEach(function(label) {
+                const text = label.textContent.toLowerCase();
+                label.style.display = text.includes(query) ? 'block' : 'none';
+            });
+        });
+
+        // Select All functionality for each dropdown
+        function toggleSelectAll(selectElement, checkbox) {
+            const checkboxes = selectElement.querySelectorAll("input[type='checkbox']");
+            checkboxes.forEach(function(option) {
+                option.checked = checkbox.checked;
+            });
+        }
+
+        // Continent Select All Checkbox
+        document.getElementById("select-all-continent").addEventListener("change", function() {
+            var continentSelect = document.getElementById("continent-options");
+            toggleSelectAll(continentSelect, this);
+        });
+
+        // Region Select All Checkbox
+        document.getElementById("select-all-region").addEventListener("change", function() {
+            var regionSelect = document.getElementById("region-options");
+            toggleSelectAll(regionSelect, this);
+        });
+
+        // Research Area Select All Checkbox
+        document.getElementById("select-all-research-area").addEventListener("change", function() {
+            var researchAreaSelect = document.getElementById("research-area-options");
+            toggleSelectAll(researchAreaSelect, this);
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const dropdowns = document.querySelectorAll('.custom-dropdown');
+            dropdowns.forEach(function(dropdown) {
+                const dropdownContent = dropdown.querySelector('.dropdown-content');
+                const dropdownBtn = dropdown.querySelector('.dropdown-btn');
+                if (!dropdown.contains(event.target) && dropdownContent.style.display === 'block') {
+                    dropdownContent.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

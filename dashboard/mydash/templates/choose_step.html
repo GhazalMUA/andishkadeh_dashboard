@@ -1,0 +1,44 @@
+<!-- mydash/templates/mydash/choose_step.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Search Method</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .btn {
+            font-size: 18px;
+            padding: 15px 30px;
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h2>Select Your Search Method</h2>
+            <div>
+                <a href="{% url 'choose_manually' %}" class="btn btn-primary">Choose Manually</a>
+                <a href="{% url 'choose_by_filter' %}" class="btn btn-secondary">Choose by Filtering</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
