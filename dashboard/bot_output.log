@@ -4066,3 +4066,7 @@ Celery task triggered.Celery task triggered.
 [02/Feb/2025 08:49:39] "GET /order_waiting/35/ HTTP/1.1" 200 954
 [02/Feb/2025 08:49:39] "GET /order_waiting/35/ HTTP/1.1" 200 954
 [02/Feb/2025 08:49:39] "GET /order_waiting/35/ HTTP/1.1" 200 954
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-02 08:51:08,197 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
