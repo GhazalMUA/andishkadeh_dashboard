@@ -100,6 +100,7 @@
                     <th>Region</th>
                     <th>Research Area</th>
                     <th>Keyword</th>
+                    <th>Selected Time Range </th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -111,6 +112,15 @@
                         <td>{{ detail.research_center.region.name }}</td>
                         <td>{{ detail.research_center.research_areas.all|join:", " }}</td>
                         <td>{{ order.keyword }}</td>
+                        <td>
+                            {% if order.start_date and order.end_date %}
+                                Custom Dates: {{ order.start_date|date:"Y-m-d" }} to {{ order.end_date|date:"Y-m-d" }}
+                            {% elif order.time_range %}
+                                Time Range: {{ order.time_range }}
+                            {% else %}
+                                No Time Range Selected
+                            {% endif %}
+                        </td>
                         <td>
                             <a href="{% url 'remove_order_detail' detail.id %}" class="remove-button">Remove</a>
                         </td>

@@ -3,7 +3,6 @@ import os
 import logging
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from .config import XPATHS, CONTENT_CATEGORIES, COUNTRY_LIST, MY_IGNORED_LIST
-import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -74,9 +73,9 @@ class andishkadeh_bot:
             )
             # Click the "Accept all" button
             accept_button.click()
-            print("Accepted all cookies.")
+            print("❌ Accepted all cookies.")
         except Exception as e:
-            print(f"No popup found or error occurred: {e}")
+            print(f"❌ No popup found or error occurred: {e}")
 
     @staticmethod
     def convert_relative_date(relative_date):
@@ -251,6 +250,7 @@ class andishkadeh_bot:
         results_dir = os.path.join(settings.MEDIA_ROOT, 'results')
         if not os.path.exists(results_dir):
             os.makedirs(results_dir)
+
             
         # Initialize Chrome WebDriver
         service = Service(XPATHS["chromedriver_path"])
@@ -267,14 +267,14 @@ class andishkadeh_bot:
                 search_box = WebDriverWait(driver, 60).until(
                     EC.presence_of_element_located((By.NAME, XPATHS["search_box"]))
                 )
-                print(' i found search box')
+                print('❌ I found search box')
             except:
-                print('i couldnt find search box')    
+                print('❌ I couldnt find search box')    
             search_box.send_keys(query)
-            print('I typed the query')
+            print('❌ I typed the query')
             search_box.send_keys("\n")
-            print('Query entered and search initiated.')
-            time.sleep(5)
+            print('❌ Query entered and search initiated.')
+            time.sleep(4)
 
             try:
                 tools_button = WebDriverWait(driver, 10).until(
@@ -283,9 +283,9 @@ class andishkadeh_bot:
 
                 )
                 tools_button.click()
-                print("Tools button clicked")
+                print("❌ Tools button clicked")
             except Exception as e:
-                print(f"Error interacting with Tools button: {e}")
+                print(f"❌ Error interacting with Tools button: {e}")
 
             # Wait for the "Time" dropdown to be clickable
             try:
@@ -293,9 +293,9 @@ class andishkadeh_bot:
                     EC.element_to_be_clickable((By.XPATH, XPATHS["time_dropdown"]))
                 )
                 time_dropdown_button.click()
-                print("Time dropdown clicked.")
+                print("❌ Time dropdown clicked.")
             except Exception as e:
-                print(f"Error interacting with Time dropdown: {e}")
+                print(f"❌ Error interacting with Time dropdown: {e}")
 
             if start_date and end_date:
                 # Click the "Custom range" option
@@ -318,7 +318,7 @@ class andishkadeh_bot:
                 submit_button = driver.find_element(By.CSS_SELECTOR, XPATHS["submit_button"])
                 submit_button.click()
 
-                print(f"Custom date range set: {start_date} to {end_date}")
+                print(f"❌ Custom date range set: {start_date} to {end_date}")
                 time.sleep(2)  # Wait for the search results to refresh
 
             else:
@@ -326,7 +326,7 @@ class andishkadeh_bot:
                     EC.element_to_be_clickable((By.XPATH, f"//a[@role='menuitemradio' and text()='{time_option}']"))
                 )
                 time_option_element.click()
-
+                print(f"❌ time range set to {time_option}")
             # Wait briefly to ensure results are updated
             time.sleep(2)
 
@@ -372,7 +372,7 @@ class andishkadeh_bot:
                     except Exception as e:
                         print(f"Error processing a result: {e}")
 
-                print(f"Collected {len(search_results)} results so far.")
+                print(f"❌ Collected {len(search_results)} results so far.")
 
                 # Check if the "Next" button exists and is clickable
                 try:
@@ -382,14 +382,14 @@ class andishkadeh_bot:
                     next_button.click()
                     time.sleep(2)  # Allow time for the next page to load
                 except Exception as e:
-                    print("No more pages or error occurred:", e)
+                    print("❌ No more pages or error occurred:", e)
                     break
                 
             # Filter the links using the combined filter function
             links = [result['Link'] for result in search_results]
             previews = [result['Preview'] for result in search_results]
-            print(f"raftam soraghe filter kardane linkha. tedade linkhayi ke ta hala gerftam: {len(link)}")
-            print("Previews before filtering:", previews)
+            print(f"❌ raftam soraghe filter kardane linkha. tedade linkhayi ke ta hala gerftam: {len(link)}")
+            # print("Previews before filtering:", previews)
 
             # Apply both URL filtering and preview similarity filtering
             filtered_links, filtered_previews, to_remove = andishkadeh_bot.filter_links(links, previews, MY_IGNORED_LIST, COUNTRY_LIST)
@@ -401,11 +401,12 @@ class andishkadeh_bot:
             results_df = pd.DataFrame(search_results)
             excel_path = os.path.join(results_dir, output_excel)  # Complete path in media/results directory
             results_df.to_excel(excel_path, index=True)
-            print(f"Results saved to {output_excel}")
+            print(f"❌ Results saved to {output_excel}")
+            
             return output_excel  # Returning the path or file content
 
         except Exception as e:
-            print(f"An error occurred: {e}")
+            print(f"❌ An error occurred: {e}")
         finally:
             driver.quit()
 

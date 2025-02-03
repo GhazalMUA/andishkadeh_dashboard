@@ -131,7 +131,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Directory to save files
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-
 # Broker URL: Specifies the connection URL to your RabbitMQ server.
 CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
 

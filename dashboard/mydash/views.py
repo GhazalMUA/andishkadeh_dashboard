@@ -52,7 +52,7 @@ def choose_by_filter(request):
 
         order = Order.objects.create(
             user=request.user,  # Assuming the user is logged in
-            keyword="Filtered Selection",
+            keyword="",
             final_status=Status.objects.get(name="Pending")
         )
 
@@ -128,7 +128,7 @@ def choose_keyword_time(request, order_id):
                 order.end_date = end_date
                 order.time_range = None  # Remove time_range if custom dates are selected
                 order.save()
-
+        
             except ValueError:
                 return render(request, 'choose_keyword_time.html', {'order': order, 'error': "Invalid date format. Please use YYYY-MM-DD."})
 
@@ -145,9 +145,91 @@ def choose_keyword_time(request, order_id):
             'end_date': order.end_date,
             'time_range': order.time_range
         }
+        
+        if keyword:
+            order.keyword = keyword  # Save the chosen keyword
+        order.save()
+        
         return redirect('order_summary', order_id=order_id)
 
     return render(request, 'choose_keyword_time.html', {'order': order})
+
+def order_summary(request, order_id):
+    print("Entering order_summary view...")
+    try:
+        order = Order.objects.get(id=order_id)
+        print(f"Order found: {order}")
+        order_details = OrderDetail.objects.filter(order=order)
+        print(f"Order details: {order_details}")
+        order_result = OrderResult.objects.filter(order_detail__order=order).first()
+        print(f"Order result: {order_result}")
+
+        if request.method == "POST":
+            print("POST request received.")
+            query = order_details.first().query  # Assuming all order details have the same query
+            ignore_list = MY_IGNORED_LIST  # Add your ignore list here
+            country_list = COUNTRY_LIST  # Add your country list here
+            start_date = order.start_date
+            end_date = order.end_date
+
+            print(f"Order ID: {order.id}")
+            print(f"Query: {query}")
+            print(f"Ignore List: {ignore_list}")
+            print(f"Country List: {country_list}")
+            print(f"Start Date: {start_date}, End Date: {end_date}")
+
+            # Trigger the Celery task and pass the required arguments
+            print("Triggering Celery task...")
+            process_bot.delay(
+                order.id,
+                query,
+                order.time_range,  # This will be used if no custom range is provided
+                start_date,
+                end_date,
+                ignore_list,
+                country_list
+            )
+            print("Celery task triggered.")
+
+            return redirect('order_waiting', order_id=order.id)
+
+        return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+
+    except Exception as e:
+        print(f"Error in order_summary view: {e}")
+        raise
+
+def remove_order_detail(request, order_detail_id):
+    order_detail = OrderDetail.objects.get(id=order_detail_id)
+    order_detail.delete()
+    return redirect('order_summary', order_id=order_detail.order.id)
+
+def order_waiting(request, order_id):
+    order = Order.objects.get(id=order_id)
+    order_details = OrderDetail.objects.filter(order=order)
+    order_result = OrderResult.objects.filter(order_detail__order=order).first()
+
+    if order_result and order_result.is_processed:
+        # The result is ready, show it to the user
+        return render(request, 'order_result.html', {'order': order, 'order_result': order_result})
+    
+    # Otherwise, show a "waiting" message
+    return render(request, 'order_waiting.html', {'order': order, 'order_details': order_details})
+
+def show_result(request, order_id):
+    # Assume you have already fetched the result file path using order_id
+    result_file_path = os.path.join(settings.MEDIA_ROOT, 'results', f'order_{order_id}_timestamp.xlsx')
+    
+    if os.path.exists(result_file_path):
+        result_file_url = os.path.join(settings.MEDIA_URL, 'results', f'order_{order_id}_timestamp.xlsx')
+        return render(request, 'show_result.html', {'order_id': order_id, 'result_file_url': result_file_url})
+    else:
+        return HttpResponse("Result file not found", status=404)
+    
+
+
+
+
 
 # def order_summary(request, order_id):
 #     print("Entering order_summary view...")
@@ -221,81 +303,3 @@ def choose_keyword_time(request, order_id):
 #     except Exception as e:
 #         print(f"Error in order_summary view: {e}")
 #         raise
-
-def order_summary(request, order_id):
-    print("Entering order_summary view...")
-    try:
-        order = Order.objects.get(id=order_id)
-        print(f"Order found: {order}")
-        order_details = OrderDetail.objects.filter(order=order)
-        print(f"Order details: {order_details}")
-        order_result = OrderResult.objects.filter(order_detail__order=order).first()
-        print(f"Order result: {order_result}")
-
-        if request.method == "POST":
-            print("POST request received.")
-            query = order_details.first().query  # Assuming all order details have the same query
-            ignore_list = MY_IGNORED_LIST  # Add your ignore list here
-            country_list = COUNTRY_LIST  # Add your country list here
-            start_date = order.start_date
-            end_date = order.end_date
-
-            print(f"Order ID: {order.id}")
-            print(f"Query: {query}")
-            print(f"Ignore List: {ignore_list}")
-            print(f"Country List: {country_list}")
-            print(f"Start Date: {start_date}, End Date: {end_date}")
-
-            # Trigger the Celery task and pass the required arguments
-            print("Triggering Celery task...")
-            process_bot.delay(
-                order.id,
-                query,
-                order.time_range,  # This will be used if no custom range is provided
-                start_date,
-                end_date,
-                ignore_list,
-                country_list
-            )
-            print("Celery task triggered.")
-
-            return redirect('order_waiting', order_id=order.id)
-
-        return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
-
-    except Exception as e:
-        print(f"Error in order_summary view: {e}")
-        raise
-
-
-def remove_order_detail(request, order_detail_id):
-    order_detail = OrderDetail.objects.get(id=order_detail_id)
-    order_detail.delete()
-    return redirect('order_summary', order_id=order_detail.order.id)
-
-def order_waiting(request, order_id):
-    order = Order.objects.get(id=order_id)
-    order_details = OrderDetail.objects.filter(order=order)
-    order_result = OrderResult.objects.filter(order_detail__order=order).first()
-
-    if order_result and order_result.is_processed:
-        # The result is ready, show it to the user
-        return render(request, 'order_result.html', {'order': order, 'order_result': order_result})
-    
-    # Otherwise, show a "waiting" message
-    return render(request, 'order_waiting.html', {'order': order, 'order_details': order_details})
-
-def show_result(request, order_id):
-    # Assume you have already fetched the result file path using order_id
-    result_file_path = os.path.join(settings.MEDIA_ROOT, 'results', f'order_{order_id}_timestamp.xlsx')
-    
-    if os.path.exists(result_file_path):
-        result_file_url = os.path.join(settings.MEDIA_URL, 'results', f'order_{order_id}_timestamp.xlsx')
-        return render(request, 'show_result.html', {'order_id': order_id, 'result_file_url': result_file_url})
-    else:
-        return HttpResponse("Result file not found", status=404)
-    
-
-
-
-

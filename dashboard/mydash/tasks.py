@@ -156,12 +156,10 @@ import time
 
 @shared_task(time_limit=600)
 def process_bot(order_id, query, time_range, start_date, end_date, ignore_list, country_list):
-    print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&start bot &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
-
     print("*****************Starting process_bot task... now I'm in tasks.py in the bot_process function************************")
-    print(f"Processing bot for Order ID: {order_id}")
-    print(f"Query: {query}")
-    print(f"Time Range: {time_range}, Start Date: {start_date}, End Date: {end_date}")
+    print(f"❌fromtasks❌Processing bot for Order ID: {order_id}")
+    print(f"❌fromtasks❌Query: {query}")
+    print(f"❌fromtasks❌Time Range: {time_range}, Start Date: {start_date}, End Date: {end_date}")
 
     # Initialize variables
     if time_range:
@@ -170,7 +168,7 @@ def process_bot(order_id, query, time_range, start_date, end_date, ignore_list, 
         print(f"Using custom date range: {start_date} to {end_date}")
 
     # Send the query to the bot and get the result
-    print("Sending query to bot...")
+    print("❌ sending query to bot...")
 
     bot_result = andishkadeh_bot.perform_search_and_save_links(
         query,
@@ -183,7 +181,7 @@ def process_bot(order_id, query, time_range, start_date, end_date, ignore_list, 
     )
     
     if not bot_result:
-        raise ValueError("Bot did not return a valid result")
+        raise ValueError("❌ Bot did not return a valid result")
 
     # Save the result in the OrderResult model
     order = Order.objects.get(id=order_id)
@@ -198,21 +196,9 @@ def process_bot(order_id, query, time_range, start_date, end_date, ignore_list, 
             status=Status.objects.get(name="Completed"),
             result_file=result_file  # Save the result file (file path or actual file)
         )
-
     # Optionally, update the order's status
     order.final_status = Status.objects.get(name="Completed")
     order.save()
 
     print(f"Order status updated to 'Completed' for Order ID: {order_id}")
 
-
-@shared_task
-def simple_task():
-    print("**********Task started!")
-    time.sleep(5)  # Simulate some work
-    print("##########Task completed!")
-    
-@shared_task
-def another_simple_task():
-    print("Task is running")
-    return "Task complete"

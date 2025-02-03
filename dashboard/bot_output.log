@@ -7506,3 +7506,819 @@ Celery task triggered.Celery task triggered.
 [03/Feb/2025 06:06:01] "GET /admin/mydash/orderdetail/25/change/ HTTP/1.1" 200 21843
 [03/Feb/2025 06:06:01] "GET /admin/mydash/orderdetail/25/change/ HTTP/1.1" 200 21843
 [03/Feb/2025 06:06:01] "GET /admin/mydash/orderdetail/25/change/ HTTP/1.1" 200 21843
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+2025-02-03 06:19:50,407 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/settings.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/settings.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/settings.py changed, reloading.
+2025-02-03 06:19:54,175 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/settings.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/tasks.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/tasks.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/tasks.py changed, reloading.
+2025-02-03 06:22:30,226 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/tasks.py changed, reloading.
+[03/Feb/2025 06:27:26] "GET /choose-step/ HTTP/1.1" 200 1361
+[03/Feb/2025 06:27:26] "GET /choose-step/ HTTP/1.1" 200 1361
+[03/Feb/2025 06:27:26] "GET /choose-step/ HTTP/1.1" 200 1361
+[03/Feb/2025 06:27:27] "GET /choose-manually/ HTTP/1.1" 200 3250
+[03/Feb/2025 06:27:27] "GET /choose-manually/ HTTP/1.1" 200 3250
+[03/Feb/2025 06:27:27] "GET /choose-manually/ HTTP/1.1" 200 3250
+[03/Feb/2025 06:27:30] "POST /choose-manually/ HTTP/1.1" 302 0
+[03/Feb/2025 06:27:30] "POST /choose-manually/ HTTP/1.1" 302 0
+[03/Feb/2025 06:27:30] "POST /choose-manually/ HTTP/1.1" 302 0
+[03/Feb/2025 06:27:30] "GET /choose_keyword_time/64/ HTTP/1.1" 200 5388
+[03/Feb/2025 06:27:30] "GET /choose_keyword_time/64/ HTTP/1.1" 200 5388
+[03/Feb/2025 06:27:30] "GET /choose_keyword_time/64/ HTTP/1.1" 200 5388
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[03/Feb/2025 06:27:34] "POST /choose_keyword_time/64/ HTTP/1.1" 302 0
+[03/Feb/2025 06:27:34] "POST /choose_keyword_time/64/ HTTP/1.1" 302 0
+[03/Feb/2025 06:27:34] "POST /choose_keyword_time/64/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for Order found: Order of ghazalmua for 
+
+Order details: <QuerySet [<OrderDetail: Detail of order 64 - Query: allintext: "ddddd" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 64 - Query: allintext: "ddddd" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+Error in order_summary view: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'Error in order_summary view: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+
+Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 264, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 264, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 264, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+2025-02-03 06:27:34,936 - Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 264, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+[03/Feb/2025 06:27:34] "GET /order-summary/64/ HTTP/1.1" 500 183781
+[03/Feb/2025 06:27:34] "GET /order-summary/64/ HTTP/1.1" 500 183781
+[03/Feb/2025 06:27:34] "GET /order-summary/64/ HTTP/1.1" 500 183781
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-03 06:30:03,654 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-03 06:30:27,305 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-03 06:33:36,717 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for Order found: Order of ghazalmua for 
+
+Order details: <QuerySet [<OrderDetail: Detail of order 64 - Query: allintext: "ddddd" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 64 - Query: allintext: "ddddd" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+Error in order_summary view: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'Error in order_summary view: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+
+Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 196, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 196, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 196, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+2025-02-03 06:33:40,079 - Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 196, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+[03/Feb/2025 06:33:40] "GET /order-summary/64/ HTTP/1.1" 500 183831
+[03/Feb/2025 06:33:40] "GET /order-summary/64/ HTTP/1.1" 500 183831
+[03/Feb/2025 06:33:40] "GET /order-summary/64/ HTTP/1.1" 500 183831
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[03/Feb/2025 06:33:44] "POST /choose_keyword_time/64/ HTTP/1.1" 302 0
+[03/Feb/2025 06:33:44] "POST /choose_keyword_time/64/ HTTP/1.1" 302 0
+[03/Feb/2025 06:33:44] "POST /choose_keyword_time/64/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for dddddOrder found: Order of ghazalmua for ddddd
+
+Order details: <QuerySet [<OrderDetail: Detail of order 64 - Query: allintext: "ddddd" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 64 - Query: allintext: "ddddd" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+Error in order_summary view: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'Error in order_summary view: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+
+Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 196, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 196, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 196, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+2025-02-03 06:33:44,105 - Internal Server Error: /order-summary/64/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 196, in order_summary
+    return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 489, in parse
+    raise self.error(token, e)
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 487, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' if order.keyword else "No Keyword"' from 'order.keyword if order.keyword else "No Keyword"'
+[03/Feb/2025 06:33:44] "GET /order-summary/64/ HTTP/1.1" 500 183846
+[03/Feb/2025 06:33:44] "GET /order-summary/64/ HTTP/1.1" 500 183846
+[03/Feb/2025 06:33:44] "GET /order-summary/64/ HTTP/1.1" 500 183846
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for dddddOrder found: Order of ghazalmua for ddddd
+
+Order details: <QuerySet [<OrderDetail: Detail of order 64 - Query: allintext: "ddddd" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 64 - Query: allintext: "ddddd" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+[03/Feb/2025 06:34:40] "GET /order-summary/64/ HTTP/1.1" 200 4207
+[03/Feb/2025 06:34:40] "GET /order-summary/64/ HTTP/1.1" 200 4207
+[03/Feb/2025 06:34:40] "GET /order-summary/64/ HTTP/1.1" 200 4207
