@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.urls import reverse
 from django.http import HttpResponse
 from mydash.models import ResearchCenter, Continent, Region, ResearchArea, Order, OrderDetail, Status, OrderResult
 from django.contrib.auth.models import User
@@ -9,6 +10,48 @@ import os
 from django.conf import settings
 from .tasks import process_bot
 from mydash.bot.config import MY_IGNORED_LIST, COUNTRY_LIST
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from django.contrib import messages
+from django.contrib.auth import login, authenticate
+from django.contrib import messages
+def signup(request):
+    """Handle user signup."""
+    print("Rendering signup page")
+
+    if request.method == "POST":
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Your account has been created! You can now log in.")
+            print("Redirecting to login page...")
+
+            return redirect(reverse("login"))  # Redirect to the login page after signup
+        else:
+            messages.error(request, "There was an error with your signup.")
+    else:
+        form = UserCreationForm()
+    
+    return render(request, "signup.html", {"form": form})
+
+def login_view(request):
+    """Handle user login."""
+    print("Rendering login page")
+
+    if request.method == "POST":
+        form = AuthenticationForm(data=request.POST)
+        if form.is_valid():
+            user = form.get_user()
+            login(request, user)
+            messages.success(request, "You are logged in.")
+            print("Redirecting to: ", reverse("choose-step"))
+            return redirect (reverse("choose-step"))  # Redirect to the 'choose-step' page after login
+        else:
+            messages.error(request, "Invalid username or password.")
+            
+    else:
+        form = AuthenticationForm()
+    
+    return render(request, "login.html", {"form": form})
 
 def choose_step(request):
     # This view will render the page with the two buttons (Choose manually, Choose by filtering)
@@ -157,6 +200,7 @@ def choose_keyword_time(request, order_id):
 def order_summary(request, order_id):
     print("Entering order_summary view...")
     try:
+        
         order = Order.objects.get(id=order_id)
         print(f"Order found: {order}")
         order_details = OrderDetail.objects.filter(order=order)
@@ -198,6 +242,7 @@ def order_summary(request, order_id):
     except Exception as e:
         print(f"Error in order_summary view: {e}")
         raise
+    
 
 def remove_order_detail(request, order_detail_id):
     order_detail = OrderDetail.objects.get(id=order_detail_id)
@@ -226,7 +271,8 @@ def show_result(request, order_id):
     else:
         return HttpResponse("Result file not found", status=404)
     
-
+def edit_order_detail(request):
+    pass
 
 
 

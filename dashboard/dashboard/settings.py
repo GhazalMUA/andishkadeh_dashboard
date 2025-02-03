@@ -132,15 +132,14 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Broker URL: Specifies the connection URL to your RabbitMQ server.
-CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
+CELERY_BROKER_URL = 'amqp://localhost//'
 
 # Task content format: Ensure that tasks are serialized as JSON.
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 
-# Result Backend: Stores the result of the tasks. You’ve set it to `django-db`, which stores results in your Django database.
-CELERY_RESULT_BACKEND = 'django-db'
+CELERY_RESULT_BACKEND = 'rpc://'
 
 # Redirect stdout for debugging: Disabled so that Celery doesn’t redirect stdout to a file.
 CELERY_REDIRECT_STDOUTS = False

@@ -73,7 +73,7 @@
         .order-summary-table th {
             background-color: #f4f4f4;
         }
-        .remove-button {
+        /* .remove-button {
             color: white;
             background-color: #dc3545;
             border: none;
@@ -83,8 +83,33 @@
         }
         .remove-button:hover {
             background-color: #c82333;
+        } */
+                /* Icon Styling */
+        .remove-button, .edit-button {
+            color: #495057; /* Set icon color */
+            font-size: 1.2rem; /* Adjust the size of the icon */
+            text-decoration: none; /* Remove underline from link */
+            padding: 8px;
+            cursor: pointer;
+            transition: color 0.3s;
         }
+
+        .remove-button:hover, .edit-button:hover {
+            color: #dc3545; /* Change color on hover (for remove) */
+        }
+
+        .edit-button:hover {
+            color: #007bff; /* Change color on hover (for edit) */
+        }
+
+        .remove-button i, .edit-button i {
+            padding-right: 5px; /* Space between icon and text */
+        }
+
     </style>
+    <!-- Add Font Awesome CDN link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
 
@@ -122,8 +147,15 @@
                             {% endif %}
                         </td>
                         <td>
-                            <a href="{% url 'remove_order_detail' detail.id %}" class="remove-button">Remove</a>
-                        </td>
+                            <!-- Trash Bin Icon for Deleting -->
+                            <a href="{% url 'remove_order_detail' detail.id %}" class="remove-button">
+                                <i class="fas fa-trash-alt"></i> <!-- Trash Bin Icon -->
+                            </a>
+                            &nbsp; <!-- Space between icons -->
+                            <!-- Pencil Icon for Editing -->
+                            <a href="{% url 'edit_order_detail' detail.id %}" class="edit-button">
+                                <i class="fas fa-pencil-alt"></i> <!-- Pencil Icon -->
+                            </a>
                     </tr>
                 {% endfor %}
             </tbody>
@@ -136,7 +168,7 @@
             </form>
         {% endif %}
 
-        <a href="{% url 'choose_step' %}" class="btn btn-secondary mt-3">Go Back</a>
+        <a href="{% url 'choose-step' %}" class="btn btn-secondary mt-3">Go Back</a>
     </div>
 
     {% if error %}
