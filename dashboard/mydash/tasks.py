@@ -1,10 +1,7 @@
 from celery import shared_task
 from mydash.bot.andishkadeh_bot import andishkadeh_bot
-
 from .models import Order, OrderDetail, Status, OrderResult
 import time
-
-
 
 # @shared_task(time_limit=300)
 # def process_bot(order_id, query, time_data, ignore_list, country_list):
@@ -99,41 +96,91 @@ import time
 #     order.save()
 #     print(f"Order status updated to 'Completed' for Order ID: {order_id}")
 
-@shared_task(time_limit=600)
-def process_bot(order_id, query, time_data, ignore_list, country_list):
-    print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&start bot &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
-    print("Starting process_bot task...")
+# @shared_task(time_limit=600)
+# def process_bot(order_id, query, time_data, ignore_list, country_list):
+#     print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&start bot &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+#     print("*****************Starting process_bot task... now I'm in tasks.py in the bot_process function************************")
 
+#     print(f"Processing bot for Order ID: {order_id}")
+#     print(f"Query: {query}")
+#     print(f"Time Data: {time_data}")
+
+
+#     # Initialize the variables
+#     start_date = None
+#     end_date = None
+#     time_range = None
+
+#     # Check if time_data is a dictionary (custom date range)
+#     if isinstance(time_data, dict):  
+#         start_date = time_data.get('start_date')
+#         end_date = time_data.get('end_date')
+#     elif isinstance(time_data, str):  # If time_data is a string (predefined time range or 'Any time')
+#         if time_data == 'Any time':
+#             print("Using 'Any time' as the time option. No date range.")
+#         else:
+#             time_range = time_data  # Assign the predefined time range
+#     else:
+#         raise ValueError("Invalid time_data provided")
+
+#     # Send the query to the bot and get the result
+#     print("Sending query to bot...")
+
+#     bot_result = andishkadeh_bot.perform_search_and_save_links(query, time_option=time_range, 
+#                                                                start_date=start_date, end_date=end_date,
+#                                                                ignore_list=ignore_list, country_list=country_list,
+#                                                                order_id=order_id)
+    
+#     if not bot_result:
+#         raise ValueError("Bot did not return a valid result")
+
+#     # Save the result in the OrderResult model
+#     order = Order.objects.get(id=order_id)
+#     order_details = OrderDetail.objects.filter(order=order)
+
+#     # Store the result file (Excel file, etc.)
+#     result_file = bot_result  # Assuming bot returns a file path or a file
+
+#     for order_detail in order_details:
+#         OrderResult.objects.create(
+#             order_detail=order_detail,
+#             status=Status.objects.get(name="Completed"),
+#             result_file=result_file  # Save the result file (file path or actual file)
+#         )
+
+#     # Optionally, update the order's status
+#     order.final_status = Status.objects.get(name="Completed")
+#     order.save()
+
+#     print(f"Order status updated to 'Completed' for Order ID: {order_id}")
+
+@shared_task(time_limit=600)
+def process_bot(order_id, query, time_range, start_date, end_date, ignore_list, country_list):
+    print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&start bot &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+
+    print("*****************Starting process_bot task... now I'm in tasks.py in the bot_process function************************")
     print(f"Processing bot for Order ID: {order_id}")
     print(f"Query: {query}")
-    print(f"Time Data: {time_data}")
-    print(f"Ignore List: {ignore_list}")
-    print(f"Country List: {country_list}")
+    print(f"Time Range: {time_range}, Start Date: {start_date}, End Date: {end_date}")
 
-    # Initialize the variables
-    start_date = None
-    end_date = None
-    time_range = None
-
-    # Check if time_data is a dictionary (custom date range)
-    if isinstance(time_data, dict):  
-        start_date = time_data.get('start_date')
-        end_date = time_data.get('end_date')
-    elif isinstance(time_data, str):  # If time_data is a string (predefined time range or 'Any time')
-        if time_data == 'Any time':
-            print("Using 'Any time' as the time option. No date range.")
-        else:
-            time_range = time_data  # Assign the predefined time range
+    # Initialize variables
+    if time_range:
+        print(f"Using predefined time range: {time_range}")
     else:
-        raise ValueError("Invalid time_data provided")
+        print(f"Using custom date range: {start_date} to {end_date}")
 
     # Send the query to the bot and get the result
     print("Sending query to bot...")
 
-    bot_result = andishkadeh_bot.perform_search_and_save_links(query, time_option=time_range, 
-                                                               start_date=start_date, end_date=end_date,
-                                                               ignore_list=ignore_list, country_list=country_list,
-                                                               order_id=order_id)
+    bot_result = andishkadeh_bot.perform_search_and_save_links(
+        query,
+        time_option=time_range,  # time_range for predefined time
+        start_date=start_date,   # start_date for custom range
+        end_date=end_date,       # end_date for custom range
+        ignore_list=ignore_list,
+        country_list=country_list,
+        order_id=order_id
+    )
     
     if not bot_result:
         raise ValueError("Bot did not return a valid result")
@@ -157,6 +204,7 @@ def process_bot(order_id, query, time_data, ignore_list, country_list):
     order.save()
 
     print(f"Order status updated to 'Completed' for Order ID: {order_id}")
+
 
 @shared_task
 def simple_task():

@@ -140,10 +140,87 @@ def choose_keyword_time(request, order_id):
         
         # Save the order detail
         order_detail.save()
-
+        time_data = {
+            'start_date': order.start_date,
+            'end_date': order.end_date,
+            'time_range': order.time_range
+        }
         return redirect('order_summary', order_id=order_id)
 
     return render(request, 'choose_keyword_time.html', {'order': order})
+
+# def order_summary(request, order_id):
+#     print("Entering order_summary view...")
+#     try:
+#         order = Order.objects.get(id=order_id)
+#         print(f"Order found: {order}")
+#         order_details = OrderDetail.objects.filter(order=order)
+#         print(f"Order details: {order_details}")
+#         order_result = OrderResult.objects.filter(order_detail__order=order).first()
+#         print(f"Order result: {order_result}")
+
+#         if request.method == "POST":
+#             print("POST request received.")
+#             query = order_details.first().query  # Assuming all order details have the same query
+#             time_data = {
+#                 'start_date': order.start_date,
+#                 'end_date': order.end_date,
+#                 'time_range': order.time_range
+#             }
+#             ignore_list = MY_IGNORED_LIST
+#             country_list = COUNTRY_LIST
+
+#             print(f"Order ID: {order.id}")
+#             print(f"Query: {query}")
+#             print(f"Time Data: {time_data}")
+#             print(f"Ignore List: {ignore_list}")
+#             print(f"Country List: {country_list}")
+
+#             # Trigger the Celery task
+#             print("Triggering Celery task...")
+#             process_bot.delay(order.id, query, time_data, ignore_list, country_list)
+#             print("Celery task triggered.")
+
+#             return redirect('order_waiting', order_id=order.id)
+
+#         return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+
+#     except Exception as e:
+#         print(f"Error in order_summary view: {e}")
+#         raise
+# def order_summary(request, order_id):
+#     print("Entering order_summary view...")
+#     try:
+#         order = Order.objects.get(id=order_id)
+#         print(f"Order found: {order}")
+#         order_details = OrderDetail.objects.filter(order=order)
+#         print(f"Order details: {order_details}")
+#         order_result = OrderResult.objects.filter(order_detail__order=order).first()
+#         print(f"Order result: {order_result}")
+
+#         if request.method == "POST":
+#             print("POST request received.")
+#             query = order_details.first().query  # Assuming all order details have the same query
+#             ignore_list = MY_IGNORED_LIST
+#             country_list = COUNTRY_LIST
+
+#             print(f"Order ID: {order.id}")
+#             print(f"Query: {query}")
+#             print(f"Ignore List: {ignore_list}")
+#             print(f"Country List: {country_list}")
+
+#             # Trigger the Celery task with just the time_range
+#             print("Triggering Celery task...")
+#             process_bot.delay(order.id, query, order.time_range, ignore_list, country_list)  # Pass only time_range
+#             print("Celery task triggered.")
+
+#             return redirect('order_waiting', order_id=order.id)
+
+#         return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
+
+#     except Exception as e:
+#         print(f"Error in order_summary view: {e}")
+#         raise
 
 def order_summary(request, order_id):
     print("Entering order_summary view...")
@@ -158,23 +235,28 @@ def order_summary(request, order_id):
         if request.method == "POST":
             print("POST request received.")
             query = order_details.first().query  # Assuming all order details have the same query
-            time_data = {
-                'start_date': order.start_date,
-                'end_date': order.end_date,
-                'time_range': order.time_range
-            }
-            ignore_list = MY_IGNORED_LIST
-            country_list = COUNTRY_LIST
+            ignore_list = MY_IGNORED_LIST  # Add your ignore list here
+            country_list = COUNTRY_LIST  # Add your country list here
+            start_date = order.start_date
+            end_date = order.end_date
 
             print(f"Order ID: {order.id}")
             print(f"Query: {query}")
-            print(f"Time Data: {time_data}")
             print(f"Ignore List: {ignore_list}")
             print(f"Country List: {country_list}")
+            print(f"Start Date: {start_date}, End Date: {end_date}")
 
-            # Trigger the Celery task
+            # Trigger the Celery task and pass the required arguments
             print("Triggering Celery task...")
-            process_bot.delay(order.id, query, time_data, ignore_list, country_list)
+            process_bot.delay(
+                order.id,
+                query,
+                order.time_range,  # This will be used if no custom range is provided
+                start_date,
+                end_date,
+                ignore_list,
+                country_list
+            )
             print("Celery task triggered.")
 
             return redirect('order_waiting', order_id=order.id)
@@ -184,6 +266,7 @@ def order_summary(request, order_id):
     except Exception as e:
         print(f"Error in order_summary view: {e}")
         raise
+
 
 def remove_order_detail(request, order_detail_id):
     order_detail = OrderDetail.objects.get(id=order_detail_id)
