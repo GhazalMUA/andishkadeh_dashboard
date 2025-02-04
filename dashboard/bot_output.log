@@ -15291,3 +15291,153 @@ Not Found: /media/results/order_72_2025-02-04_12-38-30.xlsx
 /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/models.py changed, reloading.
 /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/models.py changed, reloading.
 2025-02-04 13:38:19,779 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/models.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/models.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/models.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/models.py changed, reloading.
+2025-02-04 13:39:34,863 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/models.py changed, reloading.
+[04/Feb/2025 13:41:29] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:41:29] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:41:29] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:41:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:41:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:41:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /media/results/order_72_2025-02-04_12-38-30.xlsx
+Not Found: /media/results/order_72_2025-02-04_12-38-30.xlsx
+Not Found: /media/results/order_72_2025-02-04_12-38-30.xlsx
+2025-02-04 13:42:50,627 - Not Found: /media/results/order_72_2025-02-04_12-38-30.xlsx
+[04/Feb/2025 13:42:50] "GET /media/results/order_72_2025-02-04_12-38-30.xlsx HTTP/1.1" 404 5416
+[04/Feb/2025 13:42:50] "GET /media/results/order_72_2025-02-04_12-38-30.xlsx HTTP/1.1" 404 5416
+[04/Feb/2025 13:42:50] "GET /media/results/order_72_2025-02-04_12-38-30.xlsx HTTP/1.1" 404 5416
+[04/Feb/2025 13:43:35] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26783
+[04/Feb/2025 13:43:35] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26783
+[04/Feb/2025 13:43:35] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26783
+[04/Feb/2025 13:43:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:43:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:43:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:43:43] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26783
+[04/Feb/2025 13:43:43] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26783
+[04/Feb/2025 13:43:43] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26783
+[04/Feb/2025 13:43:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:43:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:43:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:43:54] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 302 0
+[04/Feb/2025 13:43:54] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 302 0
+[04/Feb/2025 13:43:54] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 302 0
+[04/Feb/2025 13:43:54] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14699
+[04/Feb/2025 13:43:54] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14699
+[04/Feb/2025 13:43:54] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14699
+[04/Feb/2025 13:43:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:43:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:43:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /media/results/order_72_2025-02-04_12-38-30.xlsx
+Not Found: /media/results/order_72_2025-02-04_12-38-30.xlsx
+Not Found: /media/results/order_72_2025-02-04_12-38-30.xlsx
+2025-02-04 13:43:58,431 - Not Found: /media/results/order_72_2025-02-04_12-38-30.xlsx
+[04/Feb/2025 13:43:58] "GET /media/results/order_72_2025-02-04_12-38-30.xlsx HTTP/1.1" 404 5416
+[04/Feb/2025 13:43:58] "GET /media/results/order_72_2025-02-04_12-38-30.xlsx HTTP/1.1" 404 5416
+[04/Feb/2025 13:43:58] "GET /media/results/order_72_2025-02-04_12-38-30.xlsx HTTP/1.1" 404 5416
+[04/Feb/2025 13:44:04] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:44:04] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:44:04] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:44:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:44:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:44:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:44:21] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26783
+[04/Feb/2025 13:44:21] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26783
+[04/Feb/2025 13:44:21] "POST /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26783
+[04/Feb/2025 13:44:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:44:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:44:21] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:46:34] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14449
+[04/Feb/2025 13:46:34] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14449
+[04/Feb/2025 13:46:34] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14449
+[04/Feb/2025 13:46:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:46:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:46:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:46:35] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:46:35] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:46:35] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:46:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:46:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:46:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+2025-02-04 13:55:57,546 - Not Found: /show_result/72/
+[04/Feb/2025 13:55:57] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 13:55:57] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 13:55:57] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 13:57:38] "GET /choose-step/ HTTP/1.1" 200 1361
+[04/Feb/2025 13:57:38] "GET /choose-step/ HTTP/1.1" 200 1361
+[04/Feb/2025 13:57:38] "GET /choose-step/ HTTP/1.1" 200 1361
+Not Found: /show_result/
+Not Found: /show_result/
+Not Found: /show_result/
+2025-02-04 13:57:45,839 - Not Found: /show_result/
+[04/Feb/2025 13:57:45] "GET /show_result/ HTTP/1.1" 404 5311
+[04/Feb/2025 13:57:45] "GET /show_result/ HTTP/1.1" 404 5311
+[04/Feb/2025 13:57:45] "GET /show_result/ HTTP/1.1" 404 5311
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+2025-02-04 13:57:54,063 - Not Found: /show_result/72/
+[04/Feb/2025 13:57:54] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 13:57:54] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 13:57:54] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 13:58:02] "GET /admin/mydash/order/ HTTP/1.1" 200 36320
+[04/Feb/2025 13:58:02] "GET /admin/mydash/order/ HTTP/1.1" 200 36320
+[04/Feb/2025 13:58:02] "GET /admin/mydash/order/ HTTP/1.1" 200 36320
+[04/Feb/2025 13:58:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:04] "GET /admin/mydash/order/72/change/ HTTP/1.1" 200 19951
+[04/Feb/2025 13:58:04] "GET /admin/mydash/order/72/change/ HTTP/1.1" 200 19951
+[04/Feb/2025 13:58:04] "GET /admin/mydash/order/72/change/ HTTP/1.1" 200 19951
+[04/Feb/2025 13:58:04] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[04/Feb/2025 13:58:04] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[04/Feb/2025 13:58:04] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[04/Feb/2025 13:58:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:15] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14449
+[04/Feb/2025 13:58:15] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14449
+[04/Feb/2025 13:58:15] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14449
+[04/Feb/2025 13:58:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:18] "GET /admin/mydash/orderdetail/ HTTP/1.1" 200 38399
+[04/Feb/2025 13:58:18] "GET /admin/mydash/orderdetail/ HTTP/1.1" 200 38399
+[04/Feb/2025 13:58:18] "GET /admin/mydash/orderdetail/ HTTP/1.1" 200 38399
+[04/Feb/2025 13:58:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:19] "GET /admin/mydash/orderdetail/74/change/ HTTP/1.1" 200 22345
+[04/Feb/2025 13:58:19] "GET /admin/mydash/orderdetail/74/change/ HTTP/1.1" 200 22345
+[04/Feb/2025 13:58:19] "GET /admin/mydash/orderdetail/74/change/ HTTP/1.1" 200 22345
+[04/Feb/2025 13:58:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:26] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14449
+[04/Feb/2025 13:58:26] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14449
+[04/Feb/2025 13:58:26] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14449
+[04/Feb/2025 13:58:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:27] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:58:27] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:58:27] "GET /admin/mydash/orderresult/1/change/ HTTP/1.1" 200 26543
+[04/Feb/2025 13:58:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[04/Feb/2025 13:58:57] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 13:58:57] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 13:58:57] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 13:59:47] "GET /order_waiting/71/ HTTP/1.1" 200 2483
+[04/Feb/2025 13:59:47] "GET /order_waiting/71/ HTTP/1.1" 200 2483
+[04/Feb/2025 13:59:47] "GET /order_waiting/71/ HTTP/1.1" 200 2483
+[04/Feb/2025 14:00:36] "GET /order_waiting/71/ HTTP/1.1" 200 2475
+[04/Feb/2025 14:00:36] "GET /order_waiting/71/ HTTP/1.1" 200 2475
+[04/Feb/2025 14:00:36] "GET /order_waiting/71/ HTTP/1.1" 200 2475
+[04/Feb/2025 14:00:49] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 14:00:49] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 14:00:49] "GET /order_waiting/72/ HTTP/1.1" 200 241
