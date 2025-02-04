@@ -40,11 +40,14 @@ def process_bot(order_id, query, time_range, start_date, end_date, ignore_list, 
     result_file = bot_result  # Assuming bot returns a file path or a file
 
     for order_detail in order_details:
-        OrderResult.objects.create(
+        order_result = OrderResult.objects.create(
             order_detail=order_detail,
             status=Status.objects.get(name="Completed"),
             result_file=result_file  # Save the result file (file path or actual file)
         )
+        # Update the `is_processed` flag when the result is created
+        order_result.is_processed = True
+        order_result.save()
     # Optionally, update the order's status
     order.final_status = Status.objects.get(name="Completed")
     order.save()
