@@ -87,7 +87,7 @@ class OrderDetail(models.Model):
 class OrderResult(models.Model):
     order_detail = models.ForeignKey(OrderDetail, on_delete=models.CASCADE)
     status = models.ForeignKey(Status, on_delete=models.CASCADE)
-    result_file = models.FileField(upload_to='result_files/', null=True, blank=True)
+    result_file = models.FileField(upload_to='results/', null=True, blank=True)
     raw_data = models.JSONField(null=True, blank=True)  # Store raw data from the website 
     created_at = models.DateTimeField(auto_now_add=True)
     completed_at = models.DateTimeField(null=True, blank=True)
