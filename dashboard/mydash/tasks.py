@@ -52,8 +52,11 @@ def process_bot(order_id, query, time_range, start_date, end_date, ignore_list, 
     print(f"Order status updated to 'Completed' for Order ID: {order_id}")
 
 
-@shared_task
-def add(x, y):
-     
-    print('❌❌❌❌❌❌❌❌❌❌❌my simple sample❌❌❌❌❌❌❌❌❌❌❌❌❌')
-    return x + y   
+@shared_task(bind=True, max_retries=5, default_retry_delay=10)
+def add(self, x, y):
+    try:
+        print('❌❌❌❌❌❌❌❌❌❌❌my simple sample❌❌❌❌❌❌❌❌❌❌❌❌❌')
+        return x + y
+    except Exception as e:
+        print(f"Task failed due to: {str(e)}")
+        raise self.retry(exc=e)

@@ -139,13 +139,13 @@ CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 
-CELERY_RESULT_BACKEND = 'rpc://'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
 
 # Redirect stdout for debugging: Disabled so that Celery doesn’t redirect stdout to a file.
 CELERY_REDIRECT_STDOUTS = False
 
 # Disable TTY output, this is useful for logging purposes in non-interactive environments.
 CELERY_DISABLE_TTY = True
-CELERY_TIMEZONE = 'UTC'
-
+CELERY_TIMEZONE = 'Asia/Tehran'
+broker_connection_retry_on_startup = True
 

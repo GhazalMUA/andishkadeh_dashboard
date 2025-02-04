@@ -369,6 +369,7 @@ class andishkadeh_bot:
                             "Resource": resource,
                             "Type": category
                         })
+                        
                     except Exception as e:
                         print(f"Error processing a result: {e}")
 
@@ -397,8 +398,11 @@ class andishkadeh_bot:
             # Now filter the search results based on the filtered links
             search_results = [result for i, result in enumerate(search_results) if i not in to_remove]
             
+            if not search_results:
+                raise ValueError("❌ Bot did not return a valid result")
             # Save the filtered results to Excel
             results_df = pd.DataFrame(search_results)
+            
             excel_path = os.path.join(results_dir, output_excel)  # Complete path in media/results directory
             results_df.to_excel(excel_path, index=True)
             print(f"❌ Results saved to {output_excel}")
