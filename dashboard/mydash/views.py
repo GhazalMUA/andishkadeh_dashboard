@@ -256,7 +256,8 @@ def order_waiting(request, order_id):
 
     if order_result and order_result.is_processed:
         # The result is ready, show it to the user
-        return render(request, 'order_result.html', {'order': order, 'order_result': order_result})
+            return redirect('order_result', order_id=order.id)
+
     
     # Otherwise, show a "waiting" message
     return render(request, 'order_waiting.html', {'order': order, 'order_details': order_details})
@@ -267,85 +268,13 @@ def show_result(request, order_id):
     
     if os.path.exists(result_file_path):
         result_file_url = os.path.join(settings.MEDIA_URL, 'results', f'order_{order_id}_timestamp.xlsx')
-        return render(request, 'show_result.html', {'order_id': order_id, 'result_file_url': result_file_url})
+        return render(request, 'order_result.html', {'order_id': order_id, 'result_file_url': result_file_url})
     else:
         return HttpResponse("Result file not found", status=404)
-    
+
+# ye fekri be halesh bokon    
 def edit_order_detail(request):
     pass
 
 
 
-
-# def order_summary(request, order_id):
-#     print("Entering order_summary view...")
-#     try:
-#         order = Order.objects.get(id=order_id)
-#         print(f"Order found: {order}")
-#         order_details = OrderDetail.objects.filter(order=order)
-#         print(f"Order details: {order_details}")
-#         order_result = OrderResult.objects.filter(order_detail__order=order).first()
-#         print(f"Order result: {order_result}")
-
-#         if request.method == "POST":
-#             print("POST request received.")
-#             query = order_details.first().query  # Assuming all order details have the same query
-#             time_data = {
-#                 'start_date': order.start_date,
-#                 'end_date': order.end_date,
-#                 'time_range': order.time_range
-#             }
-#             ignore_list = MY_IGNORED_LIST
-#             country_list = COUNTRY_LIST
-
-#             print(f"Order ID: {order.id}")
-#             print(f"Query: {query}")
-#             print(f"Time Data: {time_data}")
-#             print(f"Ignore List: {ignore_list}")
-#             print(f"Country List: {country_list}")
-
-#             # Trigger the Celery task
-#             print("Triggering Celery task...")
-#             process_bot.delay(order.id, query, time_data, ignore_list, country_list)
-#             print("Celery task triggered.")
-
-#             return redirect('order_waiting', order_id=order.id)
-
-#         return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
-
-#     except Exception as e:
-#         print(f"Error in order_summary view: {e}")
-#         raise
-# def order_summary(request, order_id):
-#     print("Entering order_summary view...")
-#     try:
-#         order = Order.objects.get(id=order_id)
-#         print(f"Order found: {order}")
-#         order_details = OrderDetail.objects.filter(order=order)
-#         print(f"Order details: {order_details}")
-#         order_result = OrderResult.objects.filter(order_detail__order=order).first()
-#         print(f"Order result: {order_result}")
-
-#         if request.method == "POST":
-#             print("POST request received.")
-#             query = order_details.first().query  # Assuming all order details have the same query
-#             ignore_list = MY_IGNORED_LIST
-#             country_list = COUNTRY_LIST
-
-#             print(f"Order ID: {order.id}")
-#             print(f"Query: {query}")
-#             print(f"Ignore List: {ignore_list}")
-#             print(f"Country List: {country_list}")
-
-#             # Trigger the Celery task with just the time_range
-#             print("Triggering Celery task...")
-#             process_bot.delay(order.id, query, order.time_range, ignore_list, country_list)  # Pass only time_range
-#             print("Celery task triggered.")
-
-#             return redirect('order_waiting', order_id=order.id)
-
-#         return render(request, 'order_summary.html', {'order': order, 'order_details': order_details})
-
-#     except Exception as e:
-#         print(f"Error in order_summary view: {e}")
-#         raise

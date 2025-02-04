@@ -51,7 +51,7 @@ class andishkadeh_bot:
         Generate a dynamic Excel file name based on the order ID and current timestamp.
         """
         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-        return os.path.join('results', f"order_{order_id}_{timestamp}.xlsx")
+        return f"order_{order_id}_{timestamp}.xlsx"
 
     
     @staticmethod

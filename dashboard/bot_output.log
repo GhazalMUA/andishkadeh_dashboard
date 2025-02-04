@@ -15441,3 +15441,232 @@ Not Found: /show_result/72/
 [04/Feb/2025 14:00:49] "GET /order_waiting/72/ HTTP/1.1" 200 241
 [04/Feb/2025 14:00:49] "GET /order_waiting/72/ HTTP/1.1" 200 241
 [04/Feb/2025 14:00:49] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 14:02:39] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 14:02:39] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 14:02:39] "GET /order_waiting/72/ HTTP/1.1" 200 241
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/urls.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/urls.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/urls.py changed, reloading.
+2025-02-04 14:05:23,848 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/urls.py changed, reloading.
+[04/Feb/2025 14:05:31] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 14:05:31] "GET /order_waiting/72/ HTTP/1.1" 200 241
+[04/Feb/2025 14:05:31] "GET /order_waiting/72/ HTTP/1.1" 200 241
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-04 14:09:32,443 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[04/Feb/2025 14:09:40] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:09:40] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:09:40] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:01] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:01] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:01] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:03] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:03] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:03] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:04] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:05] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:06] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:07] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:07] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:11:07] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/urls.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/urls.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/urls.py changed, reloading.
+2025-02-04 14:12:58,602 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/urls.py changed, reloading.
+[04/Feb/2025 14:15:14] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:15:14] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:15:14] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:15:14] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:15:14] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:15:14] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:17:32] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:17:32] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:17:32] "GET /order_waiting/72/ HTTP/1.1" 200 2888
+[04/Feb/2025 14:17:44] "GET /admin/ HTTP/1.1" 200 14768
+[04/Feb/2025 14:17:44] "GET /admin/ HTTP/1.1" 200 14768
+[04/Feb/2025 14:17:44] "GET /admin/ HTTP/1.1" 200 14768
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-04 14:28:08,279 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+Internal Server Error: /order_waiting/72/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 259, in order_waiting
+    return redirect('order_result', order_id=order.id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'order_result' not found. 'order_result' is not a valid view function or pattern name.
+Internal Server Error: /order_waiting/72/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 259, in order_waiting
+    return redirect('order_result', order_id=order.id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'order_result' not found. 'order_result' is not a valid view function or pattern name.
+Internal Server Error: /order_waiting/72/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 259, in order_waiting
+    return redirect('order_result', order_id=order.id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'order_result' not found. 'order_result' is not a valid view function or pattern name.
+2025-02-04 14:28:12,102 - Internal Server Error: /order_waiting/72/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 259, in order_waiting
+    return redirect('order_result', order_id=order.id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'order_result' not found. 'order_result' is not a valid view function or pattern name.
+[04/Feb/2025 14:28:12] "GET /order_waiting/72/ HTTP/1.1" 500 84948
+[04/Feb/2025 14:28:12] "GET /order_waiting/72/ HTTP/1.1" 500 84948
+[04/Feb/2025 14:28:12] "GET /order_waiting/72/ HTTP/1.1" 500 84948
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-04 14:28:31,325 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[04/Feb/2025 14:28:33] "GET /order_waiting/72/ HTTP/1.1" 302 0
+[04/Feb/2025 14:28:33] "GET /order_waiting/72/ HTTP/1.1" 302 0
+[04/Feb/2025 14:28:33] "GET /order_waiting/72/ HTTP/1.1" 302 0
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+2025-02-04 14:28:33,740 - Not Found: /show_result/72/
+[04/Feb/2025 14:28:33] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 14:28:33] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 14:28:33] "GET /show_result/72/ HTTP/1.1" 404 21
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+2025-02-04 14:28:36,809 - Not Found: /show_result/72/
+[04/Feb/2025 14:28:36] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 14:28:36] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 14:28:36] "GET /show_result/72/ HTTP/1.1" 404 21
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+2025-02-04 14:28:38,738 - Not Found: /show_result/72/
+[04/Feb/2025 14:28:38] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 14:28:38] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 14:28:38] "GET /show_result/72/ HTTP/1.1" 404 21
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-04 14:30:38,264 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+Not Found: /show_result/72/
+2025-02-04 14:30:41,498 - Not Found: /show_result/72/
+[04/Feb/2025 14:30:41] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 14:30:41] "GET /show_result/72/ HTTP/1.1" 404 21
+[04/Feb/2025 14:30:41] "GET /show_result/72/ HTTP/1.1" 404 21
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+2025-02-04 15:06:38,368 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
