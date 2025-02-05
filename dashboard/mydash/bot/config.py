@@ -3,7 +3,7 @@ XPATHS = {
     "accept_cookies": "L2AGLb",
     "chromedriver_path": "/opt/homebrew/bin/chromedriver",
     "search_box": "q",
-    "tools_button": "//div[@id='hdtb-tls']", 
+    "tools_button": "//div[@aria-controls='hdtb-tls']//button", 
     "time_dropdown": "//div[contains(@class, 'KTBKoe') and text()='Any time']",
     "custom_range": "//span[text()='Custom range...']",
     "next_button": "//a[text()='Next']",

@@ -256,7 +256,7 @@ def order_waiting(request, order_id):
 
     if order_result and order_result.is_processed:
         # The result is ready, show it to the user
-            return redirect('order_result', order_id=order.id)
+            return redirect('show_result', order_id=order.id)
 
     
     # Otherwise, show a "waiting" message

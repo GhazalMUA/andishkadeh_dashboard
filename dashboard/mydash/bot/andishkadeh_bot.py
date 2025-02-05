@@ -274,15 +274,16 @@ class andishkadeh_bot:
             print('❌ I typed the query')
             search_box.send_keys("\n")
             print('❌ Query entered and search initiated.')
-            time.sleep(4)
+            time.sleep(2)
 
             try:
-                tools_button = WebDriverWait(driver, 10).until(
-                    # EC.element_to_be_clickable((By.XPATH, "//div[@aria-controls='hdtbMenus' and @role='button']"))
+                tools_button = WebDriverWait(driver, 60).until(
                     EC.element_to_be_clickable((By.XPATH, XPATHS["tools_button"]))
 
                 )
+                driver.execute_script("arguments[0].scrollIntoView();", tools_button)  # Scroll the element into view
                 tools_button.click()
+                
                 print("❌ Tools button clicked")
             except Exception as e:
                 print(f"❌ Error interacting with Tools button: {e}")
@@ -402,8 +403,9 @@ class andishkadeh_bot:
                 raise ValueError("❌ Bot did not return a valid result")
             # Save the filtered results to Excel
             results_df = pd.DataFrame(search_results)
-            
+            print(f"Results directory: {results_dir}")
             excel_path = os.path.join(results_dir, output_excel)  # Complete path in media/results directory
+            print(f"Excel file path: {excel_path}")
             results_df.to_excel(excel_path, index=True)
             print(f"❌ Results saved to {output_excel}")
             
