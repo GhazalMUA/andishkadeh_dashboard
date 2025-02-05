@@ -253,24 +253,49 @@ def order_waiting(request, order_id):
     order = Order.objects.get(id=order_id)
     order_details = OrderDetail.objects.filter(order=order)
     order_result = OrderResult.objects.filter(order_detail__order=order).first()
+    if order_result:
+        print("Order Result found:", order_result)
+        if order_result.is_processed:
+            print('i confirm that order_result.is_process is true') 
+            return redirect('show_result', order_id=order.id)   
+        else:
+            print('order_result.is_process is false.') 
+    else:
+        print("No order result found")
 
-    if order_result and order_result.is_processed:
-        # The result is ready, show it to the user
-            return redirect('show_result', order_id=order.id)
-
-    
     # Otherwise, show a "waiting" message
     return render(request, 'order_waiting.html', {'order': order, 'order_details': order_details})
 
-def show_result(request, order_id):
-    # Assume you have already fetched the result file path using order_id
-    result_file_path = os.path.join(settings.MEDIA_ROOT, 'results', f'order_{order_id}_timestamp.xlsx')
+# def show_result(request, order_id):
+#     # Assume you have already fetched the result file path using order_id
+#     result_file_path = os.path.join(settings.MEDIA_ROOT, 'results', f'order_{order_id}_timestamp.xlsx')
     
-    if os.path.exists(result_file_path):
-        result_file_url = os.path.join(settings.MEDIA_URL, 'results', f'order_{order_id}_timestamp.xlsx')
-        return render(request, 'order_result.html', {'order_id': order_id, 'result_file_url': result_file_url})
+#     if os.path.exists(result_file_path):
+#         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+#         result_file_url = os.path.join(settings.MEDIA_URL, 'results', f'order_{order_id}_{timestamp}.xlsx')
+#         print(f"Looking for result file at: {result_file_path}")
+#         return render(request, 'order_result.html', {'order_id': order_id, 'result_file_url': result_file_url})
+#     else:
+#         return HttpResponse("Result file not found", status=404)
+
+def show_result(request, order_id):
+    # Get the order_result associated with the order_id
+    order_result = OrderResult.objects.filter(order_detail__order__id=order_id).first()
+
+    if order_result:
+        # Check if the result file exists
+        if order_result.result_file:
+            result_file_url = order_result.result_file.url
+            print(f"Result file URL: {result_file_url}")  # For debugging
+            return render(request, 'order_result.html', {
+                'order_id': order_id,
+                'order_result': order_result,  # Pass the order_result to the template
+                'result_file_url': result_file_url
+            })
+        else:
+            return HttpResponse("Result file not found", status=404)
     else:
-        return HttpResponse("Result file not found", status=404)
+        return HttpResponse("Order result not found", status=404)
 
 # ye fekri be halesh bokon    
 def edit_order_detail(request):

@@ -120,11 +120,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-
-# settings.py
-MEDIA_URL = '/media/'  # URL to access the files from the browser
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Directory to save files
-
+MEDIA_URL = '/media/results/'  # URL to access the files from the browser
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media', 'results')  # Directory to save files
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 

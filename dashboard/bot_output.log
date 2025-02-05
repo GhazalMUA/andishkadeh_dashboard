@@ -18200,3 +18200,1234 @@ Not Found: /show_result/83/
 [05/Feb/2025 07:23:32] "GET /show_result/83/ HTTP/1.1" 404 21
 [05/Feb/2025 07:23:32] "GET /show_result/83/ HTTP/1.1" 404 21
 [05/Feb/2025 07:23:32] "GET /show_result/83/ HTTP/1.1" 404 21
+[05/Feb/2025 07:29:31] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14798
+[05/Feb/2025 07:29:31] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14798
+[05/Feb/2025 07:29:31] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 14798
+[05/Feb/2025 07:29:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:29:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:29:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:29:33] "GET /admin/mydash/orderresult/2/change/ HTTP/1.1" 200 27743
+[05/Feb/2025 07:29:33] "GET /admin/mydash/orderresult/2/change/ HTTP/1.1" 200 27743
+[05/Feb/2025 07:29:33] "GET /admin/mydash/orderresult/2/change/ HTTP/1.1" 200 27743
+[05/Feb/2025 07:29:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:29:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:29:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 07:32:03,160 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+Rendering login pageRendering login page
+
+[05/Feb/2025 07:35:49] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 07:35:49] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 07:35:49] "GET /login/ HTTP/1.1" 200 2685
+Rendering login pageRendering login page
+
+[05/Feb/2025 07:35:53] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 07:35:53] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 07:35:53] "GET /login/ HTTP/1.1" 200 2685
+Rendering login pageRendering login page
+
+Redirecting to: Redirecting to:   /choose-step//choose-step/
+
+[05/Feb/2025 07:36:25] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:25] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:25] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:25] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 07:36:25] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 07:36:25] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 07:36:26] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 07:36:26] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 07:36:26] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 07:36:29] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:29] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:29] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:29] "GET /choose_keyword_time/84/ HTTP/1.1" 200 5388
+[05/Feb/2025 07:36:29] "GET /choose_keyword_time/84/ HTTP/1.1" 200 5388
+[05/Feb/2025 07:36:29] "GET /choose_keyword_time/84/ HTTP/1.1" 200 5388
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[05/Feb/2025 07:36:34] "POST /choose_keyword_time/84/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:34] "POST /choose_keyword_time/84/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:34] "POST /choose_keyword_time/84/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for iranOrder found: Order of ghazalmua for iran
+
+Order details: <QuerySet [<OrderDetail: Detail of order 84 - Query: allintext: "iran" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 84 - Query: allintext: "iran" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+[05/Feb/2025 07:36:35] "GET /order-summary/84/ HTTP/1.1" 200 5562
+[05/Feb/2025 07:36:35] "GET /order-summary/84/ HTTP/1.1" 200 5562
+[05/Feb/2025 07:36:35] "GET /order-summary/84/ HTTP/1.1" 200 5562
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for iranOrder found: Order of ghazalmua for iran
+
+Order details: <QuerySet [<OrderDetail: Detail of order 84 - Query: allintext: "iran" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 84 - Query: allintext: "iran" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+POST request received.POST request received.
+
+Order ID: 84Order ID: 84
+
+Query: allintext: "iran" site:https://www.amnesty.org/Query: allintext: "iran" site:https://www.amnesty.org/
+
+Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']
+
+Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']
+
+Start Date: None, End Date: NoneStart Date: None, End Date: None
+
+Triggering Celery task...Triggering Celery task...
+
+Celery task triggered.Celery task triggered.
+
+[05/Feb/2025 07:36:37] "POST /order-summary/84/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:37] "POST /order-summary/84/ HTTP/1.1" 302 0
+[05/Feb/2025 07:36:37] "POST /order-summary/84/ HTTP/1.1" 302 0
+No order result foundNo order result found
+
+[05/Feb/2025 07:36:37] "GET /order_waiting/84/ HTTP/1.1" 200 2475
+[05/Feb/2025 07:36:37] "GET /order_waiting/84/ HTTP/1.1" 200 2475
+[05/Feb/2025 07:36:37] "GET /order_waiting/84/ HTTP/1.1" 200 2475
+Order Result found:Order Result found:  Result for OrderDetail 86 - Status: CompletedResult for OrderDetail 86 - Status: Completed
+
+[05/Feb/2025 07:38:17] "GET /order_waiting/84/ HTTP/1.1" 302 0
+[05/Feb/2025 07:38:17] "GET /order_waiting/84/ HTTP/1.1" 302 0
+[05/Feb/2025 07:38:17] "GET /order_waiting/84/ HTTP/1.1" 302 0
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+2025-02-05 07:38:17,375 - Not Found: /show_result/84/
+[05/Feb/2025 07:38:17] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:17] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:17] "GET /show_result/84/ HTTP/1.1" 404 21
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+2025-02-05 07:38:19,081 - Not Found: /show_result/84/
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+2025-02-05 07:38:19,509 - Not Found: /show_result/84/
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+2025-02-05 07:38:19,655 - Not Found: /show_result/84/
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+2025-02-05 07:38:19,787 - Not Found: /show_result/84/
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+2025-02-05 07:38:19,923 - Not Found: /show_result/84/
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:19] "GET /show_result/84/ HTTP/1.1" 404 21
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+2025-02-05 07:38:20,057 - Not Found: /show_result/84/
+[05/Feb/2025 07:38:20] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:20] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:20] "GET /show_result/84/ HTTP/1.1" 404 21
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+2025-02-05 07:38:20,209 - Not Found: /show_result/84/
+[05/Feb/2025 07:38:20] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:20] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:20] "GET /show_result/84/ HTTP/1.1" 404 21
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+Not Found: /show_result/84/
+2025-02-05 07:38:20,377 - Not Found: /show_result/84/
+[05/Feb/2025 07:38:20] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:20] "GET /show_result/84/ HTTP/1.1" 404 21
+[05/Feb/2025 07:38:20] "GET /show_result/84/ HTTP/1.1" 404 21
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+2025-02-05 07:41:22,524 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+[05/Feb/2025 07:43:11] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 15266
+[05/Feb/2025 07:43:11] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 15266
+[05/Feb/2025 07:43:11] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 15266
+[05/Feb/2025 07:43:12] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 15142
+[05/Feb/2025 07:43:12] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 15142
+[05/Feb/2025 07:43:12] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 15142
+[05/Feb/2025 07:43:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:43:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:43:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:43:14] "GET /admin/mydash/orderresult/3/change/ HTTP/1.1" 200 27860
+[05/Feb/2025 07:43:14] "GET /admin/mydash/orderresult/3/change/ HTTP/1.1" 200 27860
+[05/Feb/2025 07:43:14] "GET /admin/mydash/orderresult/3/change/ HTTP/1.1" 200 27860
+[05/Feb/2025 07:43:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:43:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 07:43:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+2025-02-05 08:38:05,531 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 08:38:21,648 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 08:38:49,672 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 08:39:19,962 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[05/Feb/2025 08:39:25] "GET /admin/ HTTP/1.1" 200 17594
+[05/Feb/2025 08:39:25] "GET /admin/ HTTP/1.1" 200 17594
+[05/Feb/2025 08:39:25] "GET /admin/ HTTP/1.1" 200 17594
+Rendering login pageRendering login page
+
+[05/Feb/2025 08:40:02] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 08:40:02] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 08:40:02] "GET /login/ HTTP/1.1" 200 2685
+Rendering login pageRendering login page
+
+Redirecting to: Redirecting to:   /choose-step//choose-step/
+
+[05/Feb/2025 08:40:09] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:09] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:09] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:09] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 08:40:09] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 08:40:09] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 08:40:10] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 08:40:10] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 08:40:10] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 08:40:12] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:12] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:12] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:12] "GET /choose_keyword_time/85/ HTTP/1.1" 200 5388
+[05/Feb/2025 08:40:12] "GET /choose_keyword_time/85/ HTTP/1.1" 200 5388
+[05/Feb/2025 08:40:12] "GET /choose_keyword_time/85/ HTTP/1.1" 200 5388
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[05/Feb/2025 08:40:17] "POST /choose_keyword_time/85/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:17] "POST /choose_keyword_time/85/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:17] "POST /choose_keyword_time/85/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for iraqOrder found: Order of ghazalmua for iraq
+
+Order details: <QuerySet [<OrderDetail: Detail of order 85 - Query: allintext: "iraq" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 85 - Query: allintext: "iraq" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+[05/Feb/2025 08:40:17] "GET /order-summary/85/ HTTP/1.1" 200 5562
+[05/Feb/2025 08:40:17] "GET /order-summary/85/ HTTP/1.1" 200 5562
+[05/Feb/2025 08:40:17] "GET /order-summary/85/ HTTP/1.1" 200 5562
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for iraqOrder found: Order of ghazalmua for iraq
+
+Order details: <QuerySet [<OrderDetail: Detail of order 85 - Query: allintext: "iraq" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 85 - Query: allintext: "iraq" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+POST request received.POST request received.
+
+Order ID: 85Order ID: 85
+
+Query: allintext: "iraq" site:https://www.amnesty.org/Query: allintext: "iraq" site:https://www.amnesty.org/
+
+Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']
+
+Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']
+
+Start Date: None, End Date: NoneStart Date: None, End Date: None
+
+Triggering Celery task...Triggering Celery task...
+
+Celery task triggered.Celery task triggered.
+
+[05/Feb/2025 08:40:20] "POST /order-summary/85/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:20] "POST /order-summary/85/ HTTP/1.1" 302 0
+[05/Feb/2025 08:40:20] "POST /order-summary/85/ HTTP/1.1" 302 0
+No order result foundNo order result found
+
+[05/Feb/2025 08:40:20] "GET /order_waiting/85/ HTTP/1.1" 200 2475
+[05/Feb/2025 08:40:20] "GET /order_waiting/85/ HTTP/1.1" 200 2475
+[05/Feb/2025 08:40:20] "GET /order_waiting/85/ HTTP/1.1" 200 2475
+No order result foundNo order result found
+
+[05/Feb/2025 08:43:34] "GET /order_waiting/85/ HTTP/1.1" 200 2475
+[05/Feb/2025 08:43:34] "GET /order_waiting/85/ HTTP/1.1" 200 2475
+[05/Feb/2025 08:43:34] "GET /order_waiting/85/ HTTP/1.1" 200 2475
+No order result foundNo order result found
+
+[05/Feb/2025 08:43:36] "GET /order_waiting/85/ HTTP/1.1" 200 2475
+[05/Feb/2025 08:43:36] "GET /order_waiting/85/ HTTP/1.1" 200 2475
+[05/Feb/2025 08:43:36] "GET /order_waiting/85/ HTTP/1.1" 200 2475
+[05/Feb/2025 08:44:08] "GET /admin/mydash/order/ HTTP/1.1" 200 40368
+[05/Feb/2025 08:44:08] "GET /admin/mydash/order/ HTTP/1.1" 200 40368
+[05/Feb/2025 08:44:08] "GET /admin/mydash/order/ HTTP/1.1" 200 40368
+[05/Feb/2025 08:44:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 08:44:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 08:44:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 08:44:13] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 15142
+[05/Feb/2025 08:44:13] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 15142
+[05/Feb/2025 08:44:13] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 15142
+[05/Feb/2025 08:44:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 08:44:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 08:44:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 08:44:54,067 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/config.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/config.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/config.py changed, reloading.
+2025-02-05 08:47:32,789 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/config.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+2025-02-05 08:48:19,399 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+2025-02-05 08:48:43,264 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+2025-02-05 08:50:44,533 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+Generated file name in bot: order_None_2025-02-05_08-50-45.xlsxGenerated file name in bot: order_None_2025-02-05_08-50-45.xlsx
+
+❌ No popup found or error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104365024 cxxbridge1$string$len + 371084
+4   chromedriver                        0x000000010439f1a8 cxxbridge1$string$len + 609040
+5   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+6   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+7   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+8   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+9   chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+10  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+11  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+12  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+13  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+14  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+15  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+❌ No popup found or error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000104365024 cxxbridge1$string$len + 371084
+4   chromedriver                        0x000000010439f1a8 cxxbridge1$string$len + 609040
+5   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+6   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+7   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+8   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+9   chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+10  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+11  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+12  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+13  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+14  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+15  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+
+
+❌ I found search box❌ I found search box
+
+❌ I typed the query❌ I typed the query
+
+❌ Query entered and search initiated.❌ Query entered and search initiated.
+
+❌ Tools button clicked❌ Tools button clicked
+
+❌ Time dropdown clicked.❌ Time dropdown clicked.
+
+❌ Custom date range set: 01/14/2025 to 01/25/2025❌ Custom date range set: 01/14/2025 to 01/25/2025
+
+❌ Collected 9 results so far.❌ Collected 9 results so far.
+
+❌ Collected 19 results so far.❌ Collected 19 results so far.
+
+❌ Collected 29 results so far.❌ Collected 29 results so far.
+
+Error processing a result: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+Error processing a result: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+
+
+Error processing a result: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+Error processing a result: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+
+
+Error processing a result: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+Error processing a result: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+
+
+Error processing a result: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+Error processing a result: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+
+
+❌ Collected 35 results so far.❌ Collected 35 results so far.
+
+❌ No more pages or error occurred:❌ No more pages or error occurred:  Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x00000001047837a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010477c05c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010431ff5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x00000001042fb87c chromedriver + 129148
+4   chromedriver                        0x000000010438b91c cxxbridge1$string$len + 529028
+5   chromedriver                        0x000000010439e800 cxxbridge1$string$len + 606568
+6   chromedriver                        0x0000000104358e40 cxxbridge1$string$len + 321448
+7   chromedriver                        0x0000000104359a88 cxxbridge1$string$len + 324592
+8   chromedriver                        0x000000010474e8a0 cxxbridge1$str$ptr + 2372880
+9   chromedriver                        0x0000000104751bc4 cxxbridge1$str$ptr + 2385972
+10  chromedriver                        0x00000001047356e0 cxxbridge1$str$ptr + 2270032
+11  chromedriver                        0x0000000104752484 cxxbridge1$str$ptr + 2388212
+12  chromedriver                        0x0000000104727324 cxxbridge1$str$ptr + 2211732
+13  chromedriver                        0x000000010476d0a0 cxxbridge1$str$ptr + 2497808
+14  chromedriver                        0x000000010476d21c cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x000000010477bcd0 cxxbridge1$str$ptr + 2558272
+16  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+
+
+❌ An error occurred: object of type 'NoneType' has no len()❌ An error occurred: object of type 'NoneType' has no len()
+
+[05/Feb/2025 08:58:52] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 08:58:52] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 08:58:52] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 08:58:56] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 08:58:56] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 08:58:56] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 08:58:58] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 08:58:58] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 08:58:58] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 08:58:58] "GET /choose_keyword_time/86/ HTTP/1.1" 200 5388
+[05/Feb/2025 08:58:58] "GET /choose_keyword_time/86/ HTTP/1.1" 200 5388
+[05/Feb/2025 08:58:58] "GET /choose_keyword_time/86/ HTTP/1.1" 200 5388
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[05/Feb/2025 08:59:04] "POST /choose_keyword_time/86/ HTTP/1.1" 302 0
+[05/Feb/2025 08:59:04] "POST /choose_keyword_time/86/ HTTP/1.1" 302 0
+[05/Feb/2025 08:59:04] "POST /choose_keyword_time/86/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for trumpOrder found: Order of ghazalmua for trump
+
+Order details: <QuerySet [<OrderDetail: Detail of order 86 - Query: allintext: "trump" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 86 - Query: allintext: "trump" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+[05/Feb/2025 08:59:04] "GET /order-summary/86/ HTTP/1.1" 200 5563
+[05/Feb/2025 08:59:04] "GET /order-summary/86/ HTTP/1.1" 200 5563
+[05/Feb/2025 08:59:04] "GET /order-summary/86/ HTTP/1.1" 200 5563
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for trumpOrder found: Order of ghazalmua for trump
+
+Order details: <QuerySet [<OrderDetail: Detail of order 86 - Query: allintext: "trump" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 86 - Query: allintext: "trump" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+POST request received.POST request received.
+
+Order ID: 86Order ID: 86
+
+Query: allintext: "trump" site:https://www.amnesty.org/Query: allintext: "trump" site:https://www.amnesty.org/
+
+Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']
+
+Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']
+
+Start Date: None, End Date: NoneStart Date: None, End Date: None
+
+Triggering Celery task...Triggering Celery task...
+
+Celery task triggered.Celery task triggered.
+
+[05/Feb/2025 08:59:05] "POST /order-summary/86/ HTTP/1.1" 302 0
+[05/Feb/2025 08:59:05] "POST /order-summary/86/ HTTP/1.1" 302 0
+[05/Feb/2025 08:59:05] "POST /order-summary/86/ HTTP/1.1" 302 0
+No order result foundNo order result found
+
+[05/Feb/2025 08:59:05] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 08:59:05] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 08:59:05] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+No order result foundNo order result found
+
+[05/Feb/2025 09:00:25] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:00:25] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:00:25] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+No order result foundNo order result found
+
+[05/Feb/2025 09:00:26] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:00:26] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:00:26] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+No order result foundNo order result found
+
+[05/Feb/2025 09:00:26] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:00:26] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:00:26] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+No order result foundNo order result found
+
+[05/Feb/2025 09:00:26] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:00:26] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:00:26] "GET /order_waiting/86/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:01:22] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:01:22] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:01:22] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:01:25] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:01:25] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:01:25] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:01:27] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:01:27] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:01:27] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:01:27] "GET /choose_keyword_time/87/ HTTP/1.1" 200 5388
+[05/Feb/2025 09:01:27] "GET /choose_keyword_time/87/ HTTP/1.1" 200 5388
+[05/Feb/2025 09:01:27] "GET /choose_keyword_time/87/ HTTP/1.1" 200 5388
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[05/Feb/2025 09:01:33] "POST /choose_keyword_time/87/ HTTP/1.1" 302 0
+[05/Feb/2025 09:01:33] "POST /choose_keyword_time/87/ HTTP/1.1" 302 0
+[05/Feb/2025 09:01:33] "POST /choose_keyword_time/87/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for trumpOrder found: Order of ghazalmua for trump
+
+Order details: <QuerySet [<OrderDetail: Detail of order 87 - Query: allintext: "trump" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 87 - Query: allintext: "trump" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+[05/Feb/2025 09:01:33] "GET /order-summary/87/ HTTP/1.1" 200 5563
+[05/Feb/2025 09:01:33] "GET /order-summary/87/ HTTP/1.1" 200 5563
+[05/Feb/2025 09:01:33] "GET /order-summary/87/ HTTP/1.1" 200 5563
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for trumpOrder found: Order of ghazalmua for trump
+
+Order details: <QuerySet [<OrderDetail: Detail of order 87 - Query: allintext: "trump" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 87 - Query: allintext: "trump" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+POST request received.POST request received.
+
+Order ID: 87Order ID: 87
+
+Query: allintext: "trump" site:https://www.amnesty.org/Query: allintext: "trump" site:https://www.amnesty.org/
+
+Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']
+
+Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']
+
+Start Date: None, End Date: NoneStart Date: None, End Date: None
+
+Triggering Celery task...Triggering Celery task...
+
+Celery task triggered.Celery task triggered.
+
+[05/Feb/2025 09:01:34] "POST /order-summary/87/ HTTP/1.1" 302 0
+[05/Feb/2025 09:01:34] "POST /order-summary/87/ HTTP/1.1" 302 0
+[05/Feb/2025 09:01:34] "POST /order-summary/87/ HTTP/1.1" 302 0
+No order result foundNo order result found
+
+[05/Feb/2025 09:01:34] "GET /order_waiting/87/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:01:34] "GET /order_waiting/87/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:01:34] "GET /order_waiting/87/ HTTP/1.1" 200 2475
+Order Result found:Order Result found:  Result for OrderDetail 89 - Status: CompletedResult for OrderDetail 89 - Status: Completed
+
+[05/Feb/2025 09:04:37] "GET /order_waiting/87/ HTTP/1.1" 302 0
+[05/Feb/2025 09:04:37] "GET /order_waiting/87/ HTTP/1.1" 302 0
+[05/Feb/2025 09:04:37] "GET /order_waiting/87/ HTTP/1.1" 302 0
+Not Found: /show_result/87/
+Not Found: /show_result/87/
+Not Found: /show_result/87/
+2025-02-05 09:04:37,703 - Not Found: /show_result/87/
+[05/Feb/2025 09:04:37] "GET /show_result/87/ HTTP/1.1" 404 21
+[05/Feb/2025 09:04:37] "GET /show_result/87/ HTTP/1.1" 404 21
+[05/Feb/2025 09:04:37] "GET /show_result/87/ HTTP/1.1" 404 21
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 09:07:11,625 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+Generated file name in bot: order_None_2025-02-05_09-07-12.xlsxGenerated file name in bot: order_None_2025-02-05_09-07-12.xlsx
+
+❌ No popup found or error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010298f7a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010298805c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010252bf5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000102571024 cxxbridge1$string$len + 371084
+4   chromedriver                        0x00000001025ab1a8 cxxbridge1$string$len + 609040
+5   chromedriver                        0x0000000102564e40 cxxbridge1$string$len + 321448
+6   chromedriver                        0x0000000102565a88 cxxbridge1$string$len + 324592
+7   chromedriver                        0x000000010295a8a0 cxxbridge1$str$ptr + 2372880
+8   chromedriver                        0x000000010295dbc4 cxxbridge1$str$ptr + 2385972
+9   chromedriver                        0x00000001029416e0 cxxbridge1$str$ptr + 2270032
+10  chromedriver                        0x000000010295e484 cxxbridge1$str$ptr + 2388212
+11  chromedriver                        0x0000000102933324 cxxbridge1$str$ptr + 2211732
+12  chromedriver                        0x00000001029790a0 cxxbridge1$str$ptr + 2497808
+13  chromedriver                        0x000000010297921c cxxbridge1$str$ptr + 2498188
+14  chromedriver                        0x0000000102987cd0 cxxbridge1$str$ptr + 2558272
+15  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+❌ No popup found or error occurred: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010298f7a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010298805c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010252bf5c cxxbridge1$string$len + 88260
+3   chromedriver                        0x0000000102571024 cxxbridge1$string$len + 371084
+4   chromedriver                        0x00000001025ab1a8 cxxbridge1$string$len + 609040
+5   chromedriver                        0x0000000102564e40 cxxbridge1$string$len + 321448
+6   chromedriver                        0x0000000102565a88 cxxbridge1$string$len + 324592
+7   chromedriver                        0x000000010295a8a0 cxxbridge1$str$ptr + 2372880
+8   chromedriver                        0x000000010295dbc4 cxxbridge1$str$ptr + 2385972
+9   chromedriver                        0x00000001029416e0 cxxbridge1$str$ptr + 2270032
+10  chromedriver                        0x000000010295e484 cxxbridge1$str$ptr + 2388212
+11  chromedriver                        0x0000000102933324 cxxbridge1$str$ptr + 2211732
+12  chromedriver                        0x00000001029790a0 cxxbridge1$str$ptr + 2497808
+13  chromedriver                        0x000000010297921c cxxbridge1$str$ptr + 2498188
+14  chromedriver                        0x0000000102987cd0 cxxbridge1$str$ptr + 2558272
+15  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+
+
+❌ I found search box❌ I found search box
+
+❌ I typed the query❌ I typed the query
+
+❌ Query entered and search initiated.❌ Query entered and search initiated.
+
+❌ Tools button clicked❌ Tools button clicked
+
+❌ Time dropdown clicked.❌ Time dropdown clicked.
+
+❌ An error occurred: Message: element not interactable
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x000000010298f7a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010298805c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010252bdcc cxxbridge1$string$len + 87860
+3   chromedriver                        0x000000010256bd5c cxxbridge1$string$len + 349892
+4   chromedriver                        0x000000010256abd8 cxxbridge1$string$len + 345408
+5   chromedriver                        0x00000001025668b4 cxxbridge1$string$len + 328220
+6   chromedriver                        0x00000001025ab1a8 cxxbridge1$string$len + 609040
+7   chromedriver                        0x0000000102564e40 cxxbridge1$string$len + 321448
+8   chromedriver                        0x0000000102565a88 cxxbridge1$string$len + 324592
+9   chromedriver                        0x000000010295a8a0 cxxbridge1$str$ptr + 2372880
+10  chromedriver                        0x000000010295dbc4 cxxbridge1$str$ptr + 2385972
+11  chromedriver                        0x00000001029416e0 cxxbridge1$str$ptr + 2270032
+12  chromedriver                        0x000000010295e484 cxxbridge1$str$ptr + 2388212
+13  chromedriver                        0x0000000102933324 cxxbridge1$str$ptr + 2211732
+14  chromedriver                        0x00000001029790a0 cxxbridge1$str$ptr + 2497808
+15  chromedriver                        0x000000010297921c cxxbridge1$str$ptr + 2498188
+16  chromedriver                        0x0000000102987cd0 cxxbridge1$str$ptr + 2558272
+17  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+❌ An error occurred: Message: element not interactable
+  (Session info: chrome=133.0.6943.53)
+Stacktrace:
+0   chromedriver                        0x000000010298f7a4 cxxbridge1$str$ptr + 2589716
+1   chromedriver                        0x000000010298805c cxxbridge1$str$ptr + 2559180
+2   chromedriver                        0x000000010252bdcc cxxbridge1$string$len + 87860
+3   chromedriver                        0x000000010256bd5c cxxbridge1$string$len + 349892
+4   chromedriver                        0x000000010256abd8 cxxbridge1$string$len + 345408
+5   chromedriver                        0x00000001025668b4 cxxbridge1$string$len + 328220
+6   chromedriver                        0x00000001025ab1a8 cxxbridge1$string$len + 609040
+7   chromedriver                        0x0000000102564e40 cxxbridge1$string$len + 321448
+8   chromedriver                        0x0000000102565a88 cxxbridge1$string$len + 324592
+9   chromedriver                        0x000000010295a8a0 cxxbridge1$str$ptr + 2372880
+10  chromedriver                        0x000000010295dbc4 cxxbridge1$str$ptr + 2385972
+11  chromedriver                        0x00000001029416e0 cxxbridge1$str$ptr + 2270032
+12  chromedriver                        0x000000010295e484 cxxbridge1$str$ptr + 2388212
+13  chromedriver                        0x0000000102933324 cxxbridge1$str$ptr + 2211732
+14  chromedriver                        0x00000001029790a0 cxxbridge1$str$ptr + 2497808
+15  chromedriver                        0x000000010297921c cxxbridge1$str$ptr + 2498188
+16  chromedriver                        0x0000000102987cd0 cxxbridge1$str$ptr + 2558272
+17  libsystem_pthread.dylib             0x0000000198a382e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000198a330fc thread_start + 8
+
+
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+2025-02-05 09:08:01,292 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/bot/andishkadeh_bot.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 09:08:07,678 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+Rendering login pageRendering login page
+
+[05/Feb/2025 09:08:56] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 09:08:56] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 09:08:56] "GET /login/ HTTP/1.1" 200 2685
+Rendering login pageRendering login page
+
+[05/Feb/2025 09:09:40] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 09:09:40] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 09:09:40] "GET /login/ HTTP/1.1" 200 2685
+Rendering login pageRendering login page
+
+Redirecting to: Redirecting to:   /choose-step//choose-step/
+
+[05/Feb/2025 09:09:56] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 09:09:56] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 09:09:56] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 09:09:56] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:09:56] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:09:56] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:09:57] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:09:57] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:09:57] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:10:01] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:10:01] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:10:01] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:10:01] "GET /choose_keyword_time/88/ HTTP/1.1" 200 5388
+[05/Feb/2025 09:10:01] "GET /choose_keyword_time/88/ HTTP/1.1" 200 5388
+[05/Feb/2025 09:10:01] "GET /choose_keyword_time/88/ HTTP/1.1" 200 5388
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[05/Feb/2025 09:10:07] "POST /choose_keyword_time/88/ HTTP/1.1" 302 0
+[05/Feb/2025 09:10:07] "POST /choose_keyword_time/88/ HTTP/1.1" 302 0
+[05/Feb/2025 09:10:07] "POST /choose_keyword_time/88/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for bidenOrder found: Order of ghazalmua for biden
+
+Order details: <QuerySet [<OrderDetail: Detail of order 88 - Query: allintext: "biden" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 88 - Query: allintext: "biden" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+[05/Feb/2025 09:10:07] "GET /order-summary/88/ HTTP/1.1" 200 5563
+[05/Feb/2025 09:10:07] "GET /order-summary/88/ HTTP/1.1" 200 5563
+[05/Feb/2025 09:10:07] "GET /order-summary/88/ HTTP/1.1" 200 5563
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for bidenOrder found: Order of ghazalmua for biden
+
+Order details: <QuerySet [<OrderDetail: Detail of order 88 - Query: allintext: "biden" site:https://www.amnesty.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 88 - Query: allintext: "biden" site:https://www.amnesty.org/>]>
+
+Order result: NoneOrder result: None
+
+POST request received.POST request received.
+
+Order ID: 88Order ID: 88
+
+Query: allintext: "biden" site:https://www.amnesty.org/Query: allintext: "biden" site:https://www.amnesty.org/
+
+Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']
+
+Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']
+
+Start Date: None, End Date: NoneStart Date: None, End Date: None
+
+Triggering Celery task...Triggering Celery task...
+
+Celery task triggered.Celery task triggered.
+
+[05/Feb/2025 09:10:11] "POST /order-summary/88/ HTTP/1.1" 302 0
+[05/Feb/2025 09:10:11] "POST /order-summary/88/ HTTP/1.1" 302 0
+[05/Feb/2025 09:10:11] "POST /order-summary/88/ HTTP/1.1" 302 0
+No order result foundNo order result found
+
+Internal Server Error: /order_waiting/88/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 260, in order_waiting
+    if order_result.is_processed:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_processed'
+Internal Server Error: /order_waiting/88/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 260, in order_waiting
+    if order_result.is_processed:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_processed'
+Internal Server Error: /order_waiting/88/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 260, in order_waiting
+    if order_result.is_processed:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_processed'
+2025-02-05 09:10:11,158 - Internal Server Error: /order_waiting/88/
+Traceback (most recent call last):
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/myenv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py", line 260, in order_waiting
+    if order_result.is_processed:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_processed'
+[05/Feb/2025 09:10:11] "GET /order_waiting/88/ HTTP/1.1" 500 66321
+[05/Feb/2025 09:10:11] "GET /order_waiting/88/ HTTP/1.1" 500 66321
+[05/Feb/2025 09:10:11] "GET /order_waiting/88/ HTTP/1.1" 500 66321
+Order Result found:Order Result found:  Result for OrderDetail 90 - Status: CompletedResult for OrderDetail 90 - Status: Completed
+
+i confirm that order_result.is_process is truei confirm that order_result.is_process is true
+
+[05/Feb/2025 09:11:31] "GET /order_waiting/88/ HTTP/1.1" 302 0
+[05/Feb/2025 09:11:31] "GET /order_waiting/88/ HTTP/1.1" 302 0
+[05/Feb/2025 09:11:31] "GET /order_waiting/88/ HTTP/1.1" 302 0
+Not Found: /show_result/88/
+Not Found: /show_result/88/
+Not Found: /show_result/88/
+2025-02-05 09:11:31,004 - Not Found: /show_result/88/
+[05/Feb/2025 09:11:31] "GET /show_result/88/ HTTP/1.1" 404 21
+[05/Feb/2025 09:11:31] "GET /show_result/88/ HTTP/1.1" 404 21
+[05/Feb/2025 09:11:31] "GET /show_result/88/ HTTP/1.1" 404 21
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 09:16:09,201 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[05/Feb/2025 09:16:47] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:16:47] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:16:47] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:16:49] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:16:49] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:16:49] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:16:53] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:16:53] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:16:53] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:16:53] "GET /choose_keyword_time/89/ HTTP/1.1" 200 5388
+[05/Feb/2025 09:16:53] "GET /choose_keyword_time/89/ HTTP/1.1" 200 5388
+[05/Feb/2025 09:16:53] "GET /choose_keyword_time/89/ HTTP/1.1" 200 5388
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[05/Feb/2025 09:17:02] "POST /choose_keyword_time/89/ HTTP/1.1" 302 0
+[05/Feb/2025 09:17:02] "POST /choose_keyword_time/89/ HTTP/1.1" 302 0
+[05/Feb/2025 09:17:02] "POST /choose_keyword_time/89/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for societyOrder found: Order of ghazalmua for society
+
+Order details: <QuerySet [<OrderDetail: Detail of order 89 - Query: allintext: "society" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 89 - Query: allintext: "society" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+[05/Feb/2025 09:17:02] "GET /order-summary/89/ HTTP/1.1" 200 5564
+[05/Feb/2025 09:17:02] "GET /order-summary/89/ HTTP/1.1" 200 5564
+[05/Feb/2025 09:17:02] "GET /order-summary/89/ HTTP/1.1" 200 5564
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for societyOrder found: Order of ghazalmua for society
+
+Order details: <QuerySet [<OrderDetail: Detail of order 89 - Query: allintext: "society" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 89 - Query: allintext: "society" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+POST request received.POST request received.
+
+Order ID: 89Order ID: 89
+
+Query: allintext: "society" site:https://www.hrw.org/Query: allintext: "society" site:https://www.hrw.org/
+
+Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']
+
+Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']
+
+Start Date: None, End Date: NoneStart Date: None, End Date: None
+
+Triggering Celery task...Triggering Celery task...
+
+Celery task triggered.Celery task triggered.
+
+[05/Feb/2025 09:17:05] "POST /order-summary/89/ HTTP/1.1" 302 0
+[05/Feb/2025 09:17:05] "POST /order-summary/89/ HTTP/1.1" 302 0
+[05/Feb/2025 09:17:05] "POST /order-summary/89/ HTTP/1.1" 302 0
+No order result foundNo order result found
+
+[05/Feb/2025 09:17:05] "GET /order_waiting/89/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:17:05] "GET /order_waiting/89/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:17:05] "GET /order_waiting/89/ HTTP/1.1" 200 2475
+Order Result found:Order Result found:  Result for OrderDetail 91 - Status: CompletedResult for OrderDetail 91 - Status: Completed
+
+i confirm that order_result.is_process is truei confirm that order_result.is_process is true
+
+[05/Feb/2025 09:19:00] "GET /order_waiting/89/ HTTP/1.1" 302 0
+[05/Feb/2025 09:19:00] "GET /order_waiting/89/ HTTP/1.1" 302 0
+[05/Feb/2025 09:19:00] "GET /order_waiting/89/ HTTP/1.1" 302 0
+Not Found: /show_result/89/
+Not Found: /show_result/89/
+Not Found: /show_result/89/
+2025-02-05 09:19:00,540 - Not Found: /show_result/89/
+[05/Feb/2025 09:19:00] "GET /show_result/89/ HTTP/1.1" 404 21
+[05/Feb/2025 09:19:00] "GET /show_result/89/ HTTP/1.1" 404 21
+[05/Feb/2025 09:19:00] "GET /show_result/89/ HTTP/1.1" 404 21
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 09:28:01,950 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 09:28:25,374 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 09:28:42,923 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+[05/Feb/2025 09:29:48] "GET /admin/ HTTP/1.1" 200 17718
+[05/Feb/2025 09:29:48] "GET /admin/ HTTP/1.1" 200 17718
+[05/Feb/2025 09:29:48] "GET /admin/ HTTP/1.1" 200 17718
+[05/Feb/2025 09:29:53] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 16174
+[05/Feb/2025 09:29:53] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 16174
+[05/Feb/2025 09:29:53] "GET /admin/mydash/orderresult/ HTTP/1.1" 200 16174
+[05/Feb/2025 09:29:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 09:29:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 09:29:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 09:29:55] "GET /admin/mydash/orderresult/6/change/ HTTP/1.1" 200 28447
+[05/Feb/2025 09:29:55] "GET /admin/mydash/orderresult/6/change/ HTTP/1.1" 200 28447
+[05/Feb/2025 09:29:55] "GET /admin/mydash/orderresult/6/change/ HTTP/1.1" 200 28447
+[05/Feb/2025 09:29:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 09:29:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[05/Feb/2025 09:29:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 09:35:01,822 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 09:35:46,500 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+2025-02-05 09:36:17,215 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/mydash/views.py changed, reloading.
+Rendering login pageRendering login page
+
+[05/Feb/2025 09:36:38] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 09:36:38] "GET /login/ HTTP/1.1" 200 2685
+[05/Feb/2025 09:36:38] "GET /login/ HTTP/1.1" 200 2685
+Rendering login pageRendering login page
+
+Redirecting to: Redirecting to:   /choose-step//choose-step/
+
+[05/Feb/2025 09:36:45] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 09:36:45] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 09:36:45] "POST /login/ HTTP/1.1" 302 0
+[05/Feb/2025 09:36:45] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:36:45] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:36:45] "GET /choose-step/ HTTP/1.1" 200 1361
+[05/Feb/2025 09:36:47] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:36:47] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:36:47] "GET /choose-manually/ HTTP/1.1" 200 3250
+[05/Feb/2025 09:36:51] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:36:51] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:36:51] "POST /choose-manually/ HTTP/1.1" 302 0
+[05/Feb/2025 09:36:51] "GET /choose_keyword_time/90/ HTTP/1.1" 200 5388
+[05/Feb/2025 09:36:51] "GET /choose_keyword_time/90/ HTTP/1.1" 200 5388
+[05/Feb/2025 09:36:51] "GET /choose_keyword_time/90/ HTTP/1.1" 200 5388
+I generated the query mesle ye bacheye khoob.I generated the query mesle ye bacheye khoob.
+
+[05/Feb/2025 09:36:59] "POST /choose_keyword_time/90/ HTTP/1.1" 302 0
+[05/Feb/2025 09:36:59] "POST /choose_keyword_time/90/ HTTP/1.1" 302 0
+[05/Feb/2025 09:36:59] "POST /choose_keyword_time/90/ HTTP/1.1" 302 0
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for societyOrder found: Order of ghazalmua for society
+
+Order details: <QuerySet [<OrderDetail: Detail of order 90 - Query: allintext: "society" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 90 - Query: allintext: "society" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+[05/Feb/2025 09:36:59] "GET /order-summary/90/ HTTP/1.1" 200 5565
+[05/Feb/2025 09:36:59] "GET /order-summary/90/ HTTP/1.1" 200 5565
+[05/Feb/2025 09:36:59] "GET /order-summary/90/ HTTP/1.1" 200 5565
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for societyOrder found: Order of ghazalmua for society
+
+Order details: <QuerySet [<OrderDetail: Detail of order 90 - Query: allintext: "society" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 90 - Query: allintext: "society" site:https://www.hrw.org/>]>
+
+Order result: NoneOrder result: None
+
+POST request received.POST request received.
+
+Order ID: 90Order ID: 90
+
+Query: allintext: "society" site:https://www.hrw.org/Query: allintext: "society" site:https://www.hrw.org/
+
+Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']Ignore List: ['expert', 'experts', 'by-expert', 'people', 'author', 'authors', 'researchers', 'researcher', 'event', 'events', 'person', 'book', 'books', 'topic', 'topics', 'archive', 'series', 'region', 'program', 'programs', 'issue', 'content-type', 'job-opportunity', 'about', 'tag', 'company', 'search', 'categorycontact', 'privacy', 'terms', 'donate', 'subscribe', 'login', 'registertwitter.com', 'facebook.com', 'linkedin.com', 'youtube.com']
+
+Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']Country List: ['afghanistan', 'albania', 'algeria', 'andorra', 'angola', 'antigua-and-barbuda', 'argentina', 'armenia', 'australia', 'austria', 'azerbaijan', 'bahamas', 'bahrain', 'bangladesh', 'barbados', 'belarus', 'belgium', 'belize', 'benin', 'bhutan', 'bolivia', 'bosnia-and-herzegovina', 'botswana', 'brazil', 'brunei', 'bulgaria', 'burkina-faso', 'burundi', 'cabo-verde', 'cambodia', 'cameroon', 'canada', 'central-african-republic', 'chad', 'chile', 'china', 'colombia', 'comoros', 'costa-rica', 'croatia', 'cuba', 'cyprus', 'czech-republic', 'democratic-republic-of-the-congo', 'denmark', 'djibouti', 'dominica', 'dominican-republic', 'ecuador', 'egypt', 'el-salvador', 'equatorial-guinea', 'eritrea', 'estonia', 'eswatini', 'ethiopia', 'fiji', 'finland', 'france', 'gabon', 'gambia', 'georgia', 'germany', 'ghana', 'greece', 'grenada', 'guatemala', 'guinea', 'guinea-bissau', 'haiti', 'honduras', 'hungary', 'iceland', 'india', 'indonesia', 'iran', 'iraq', 'ireland', 'israel', 'italy', 'jamaica', 'japan', 'jordan', 'kazakhstan', 'kenya', 'kiribati', 'kosovo', 'kuwait', 'kyrgyzstan', 'laos', 'latvia', 'lebanon', 'lesotho', 'liberia', 'libya', 'liechtenstein', 'lithuania', 'luxembourg', 'madagascar', 'malawi', 'malaysia', 'maldives', 'mali', 'malta', 'marshall-islands', 'mauritania', 'mauritius', 'mexico', 'micronesia', 'moldova', 'monaco', 'mongolia', 'montenegro', 'morocco', 'mozambique', 'myanmar-(burma)', 'namibia', 'nauru', 'nepal', 'netherlands', 'new-zealand', 'nicaragua', 'niger', 'nigeria', 'north-korea', 'north-macedonia', 'norway', 'oman', 'pakistan', 'palau', 'palestine', 'panama', 'papua-new-guinea', 'paraguay', 'peru', 'philippines', 'poland', 'portugal', 'qatar', 'republic-of-the-congo', 'romania', 'russia', 'rwanda', 'saint-kitts-and-nevis', 'saint-lucia', 'saint-vincent-and-the-grenadines', 'san-marino', 'sao-tome-and-principe', 'saudi-arabia', 'senegal', 'serbia', 'seychelles', 'sierra-leone', 'singapore', 'slovakia', 'slovenia', 'solomon-islands', 'somalia', 'south-africa', 'south-korea', 'south-sudan', 'sri-lanka', 'sudan', 'suriname', 'sweden', 'switzerland', 'syria', 'taiwan', 'tajikistan', 'tanzania', 'thailand', 'timor-leste-(east-timor)', 'togo', 'trinidad-and-tobago', 'tunisia', 'turkey', 'turkmenistan', 'tuvalu', 'uganda', 'ukraine', 'united-arab-emirates', 'united-kingdom', 'united-states', 'uruguay', 'uzbekistan', 'vanuatu', 'vatican-city', 'venezuela', 'vietnam', 'yemen', 'zambia', 'zimbabwe', 'africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania', 'middle-east', 'southeast-asia', 'central-asia', 'south-asia', 'east-asia', 'northern-europe', 'southern-europe', 'western-europe', 'eastern-europe', 'sub-saharan-africa', 'caribbean', 'latin-america', 'central-america', 'northern-america', 'australasia', 'pacific-islands', 'southeast-europe', 'central-europe', 'baltic-states']
+
+Start Date: None, End Date: NoneStart Date: None, End Date: None
+
+Triggering Celery task...Triggering Celery task...
+
+Celery task triggered.Celery task triggered.
+
+[05/Feb/2025 09:37:02] "POST /order-summary/90/ HTTP/1.1" 302 0
+[05/Feb/2025 09:37:02] "POST /order-summary/90/ HTTP/1.1" 302 0
+[05/Feb/2025 09:37:02] "POST /order-summary/90/ HTTP/1.1" 302 0
+No order result foundNo order result found
+
+[05/Feb/2025 09:37:02] "GET /order_waiting/90/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:37:02] "GET /order_waiting/90/ HTTP/1.1" 200 2475
+[05/Feb/2025 09:37:02] "GET /order_waiting/90/ HTTP/1.1" 200 2475
+Order Result found:Order Result found:  Result for OrderDetail 92 - Status: CompletedResult for OrderDetail 92 - Status: Completed
+
+i confirm that order_result.is_process is truei confirm that order_result.is_process is true
+
+[05/Feb/2025 09:39:21] "GET /order_waiting/90/ HTTP/1.1" 302 0
+[05/Feb/2025 09:39:21] "GET /order_waiting/90/ HTTP/1.1" 302 0
+[05/Feb/2025 09:39:21] "GET /order_waiting/90/ HTTP/1.1" 302 0
+Result file URL: /media/order_90_2025-02-05_09-37-02.xlsxResult file URL: /media/order_90_2025-02-05_09-37-02.xlsx
+
+[05/Feb/2025 09:39:21] "GET /show_result/90/ HTTP/1.1" 200 2978
+[05/Feb/2025 09:39:21] "GET /show_result/90/ HTTP/1.1" 200 2978
+[05/Feb/2025 09:39:21] "GET /show_result/90/ HTTP/1.1" 200 2978
+Not Found: /media/order_90_2025-02-05_09-37-02.xlsx
+Not Found: /media/order_90_2025-02-05_09-37-02.xlsx
+Not Found: /media/order_90_2025-02-05_09-37-02.xlsx
+2025-02-05 09:39:24,448 - Not Found: /media/order_90_2025-02-05_09-37-02.xlsx
+[05/Feb/2025 09:39:24] "GET /media/order_90_2025-02-05_09-37-02.xlsx HTTP/1.1" 404 5824
+[05/Feb/2025 09:39:24] "GET /media/order_90_2025-02-05_09-37-02.xlsx HTTP/1.1" 404 5824
+[05/Feb/2025 09:39:24] "GET /media/order_90_2025-02-05_09-37-02.xlsx HTTP/1.1" 404 5824
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/settings.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/settings.py changed, reloading.
+/Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/settings.py changed, reloading.
+2025-02-05 09:50:45,904 - /Users/ghazalhafezi/Documents/dashboard_andishkadeh/dashboard/dashboard/settings.py changed, reloading.
+Entering order_summary view...Entering order_summary view...
+
+Order found: Order of ghazalmua for societyOrder found: Order of ghazalmua for society
+
+Order details: <QuerySet [<OrderDetail: Detail of order 90 - Query: allintext: "society" site:https://www.hrw.org/>]>Order details: <QuerySet [<OrderDetail: Detail of order 90 - Query: allintext: "society" site:https://www.hrw.org/>]>
+
+Order result: Result for OrderDetail 92 - Status: CompletedOrder result: Result for OrderDetail 92 - Status: Completed
+
+[05/Feb/2025 09:53:21] "GET /order-summary/90/ HTTP/1.1" 200 5565
+[05/Feb/2025 09:53:21] "GET /order-summary/90/ HTTP/1.1" 200 5565
+[05/Feb/2025 09:53:21] "GET /order-summary/90/ HTTP/1.1" 200 5565

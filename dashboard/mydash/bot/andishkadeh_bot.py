@@ -51,8 +51,9 @@ class andishkadeh_bot:
         Generate a dynamic Excel file name based on the order ID and current timestamp.
         """
         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+        
+        print(f"Generated file name in bot: order_{order_id}_{timestamp}.xlsx")
         return f"order_{order_id}_{timestamp}.xlsx"
-
     
     @staticmethod
     def configure_chrome_options():
@@ -274,14 +275,13 @@ class andishkadeh_bot:
             print('❌ I typed the query')
             search_box.send_keys("\n")
             print('❌ Query entered and search initiated.')
-            time.sleep(2)
+            time.sleep(5)
 
             try:
-                tools_button = WebDriverWait(driver, 60).until(
+                tools_button = WebDriverWait(driver, 40).until(
                     EC.element_to_be_clickable((By.XPATH, XPATHS["tools_button"]))
 
                 )
-                driver.execute_script("arguments[0].scrollIntoView();", tools_button)  # Scroll the element into view
                 tools_button.click()
                 
                 print("❌ Tools button clicked")
@@ -418,7 +418,9 @@ class andishkadeh_bot:
 
 
 
-# Example usage:
+
+# from .config import MY_IGNORED_LIST, COUNTRY_LIST
+# # Example usage:
 # andishkadeh_bot.perform_search_and_save_links(
 #         query='allintext:  "iraq" site:https://www.intellinews.com/',
 #         ignore_list= MY_IGNORED_LIST,
